@@ -1,0 +1,70 @@
+{
+ "header": [
+  "Finding",
+  "Evidence",
+  "Estimate (95% CI)",
+  "Risk of bias",
+  "Inconsistency",
+  "Indirectness",
+  "Imprecision",
+  "Publication bias",
+  "Certainty"
+ ],
+ "rows": [
+  [
+   "AUC of models validated on a later period or another centre",
+   "9 studies",
+   "0.756 (0.691-0.811); PI 0.546-0.889",
+   "Serious: 6 of 9 at high overall risk of bias",
+   "Serious: I2 90%, wide prediction interval",
+   "Not serious (endpoint mix counted under inconsistency)",
+   "Not serious",
+   "Not detected (few studies)",
+   "Low"
+  ],
+  [
+   "AUC of models validated only internally",
+   "39 studies",
+   "0.814 (0.770-0.852); PI 0.477-0.955",
+   "Very serious: most at high risk of bias; best-of-several selection",
+   "Very serious: I2 100%",
+   "Not serious (endpoint mix counted under inconsistency)",
+   "Not serious",
+   "Not detected (effective-sample-size test p = 0.25)",
+   "Very low"
+  ],
+  [
+   "Change from internal to external validation within the same study",
+   "7 studies",
+   "-0.041 AUC (-0.134 to +0.033) at an internal AUC of 0.80",
+   "Serious: 6 of 7 at high overall risk of bias",
+   "Serious: changes range from -0.19 to +0.02",
+   "Not serious",
+   "Serious: interval includes no change",
+   "Not assessed (k < 10)",
+   "Very low"
+  ],
+  [
+   "Higher AUC when the decision point is not stated (meta-regression)",
+   "41 studies",
+   "+1.12 logit AUC (0.56 to 1.69); permutation p = 0.001",
+   "Serious: between-study comparison; confounded by design",
+   "Serious: I2 above 99% among the 9 studies without a stated decision point",
+   "Not serious",
+   "Not serious",
+   "Not applicable",
+   "Low"
+  ],
+  [
+   "Gain of the best machine-learning model over logistic regression on the same data",
+   "16 studies",
+   "+0.056 AUC (0.017 to 0.090) at a logistic-regression AUC of 0.75",
+   "Very serious: 13 of 16 at high risk of bias; tuned learners against untuned regression",
+   "Serious: I2 99%",
+   "Not serious",
+   "Not serious",
+   "Not assessed",
+   "Very low"
+  ]
+ ]
+}

@@ -1,0 +1,254 @@
+﻿ID,Study,Domain,Rating,Quotation or number,Location
+1,Banerjee 2010,Intended use,not applicable,"predict live birth outcomes for C2, without using clinical data from C2","PDF p4 (printed 13573), Predicting Live Birth Outcomes for the Next Cycle"
+1,Banerjee 2010,D1,unclear,restricted our analysis to cycles that had complete embryo data,"PDF p6 (13575), Methods; exclusion details referred to Fig1B and SI Text"
+1,Banerjee 2010,D1,unclear,"1,676 C1 development; 634 C1 and 230 C2 validation; excluded cycles with no oocyte retrievals/embryos transferred","PDF p2 (13571), Fig1B and Results; exact eligibility rationale in unavailable SI"
+1,Banerjee 2010,D2,unclear,many indications for IVF treatment were not defined quantitatively,"PDF p6 (13575), Discussion"
+1,Banerjee 2010,D3,low,Live birth was defined as the delivery of a live baby beyond 24 weeks,"PDF p6 (13575), Methods; fresh/frozen linked-cycle denominator in preceding/following sentences"
+1,Banerjee 2010,D4,unclear,Average grade of embryos: 35.5% missing; average grade of transferred embryos: 33.3% missing,"PDF p3 (13572), Table1, % missing column"
+1,Banerjee 2010,D4,unclear,634 C1 and 230 C2 from 2007-2008; unrelated to training-set patients/cycles; calibration p>0.1,"PDF p2 (13571), Results; p4 (13573), Testing Calibration; p5 Fig3A-B"
+2,Qiu 2019,Intended use,not applicable,our model is for pretreatment counseling,"PDF p3, Feature selection, continuing on p4"
+2,Qiu 2019,D1,unclear,9256 reviewed; 1732 no pregnancy-outcome follow-up; 336 incomplete cases; 7188 included,"PDF p3, Results / Basic characters"
+2,Qiu 2019,D2,low,"age, AMH, BMI, duration of infertility, previous live birth, previous miscarriage, previous abortion and type of infertility","PDF p4, Feature selection"
+2,Qiu 2019,D3,low,ongoing pregnancy leading to at least one live birth according to the World Health Organization,"PDF p2, Methods / Data acquisition; same-stimulation fresh/frozen cycle denominator in same section"
+2,Qiu 2019,D4,unclear,The training set was subdivided into k folds.,"PDF p3, Derivation and validation of models; k=5; training-only grid search; repeated nested CV also described"
+2,Qiu 2019,D4,unclear,"2068/9256 excluded (22.34%, calculated); 1732/9256 missing outcome follow-up (18.71%, calculated)","PDF p3, Results / Basic characters; percentages assessor-calculated from reported counts"
+2,Qiu 2019,D4,unclear,Calibration of the four models in 10 bins,"PDF p5, Model performance; Fig2b"
+3,Brás de Guimarães 2020,Intended use,not applicable,during that unique IVF/ICSI treatment and before the first embryo transfer,"PDF p10 (printed190), Discussion"
+3,Brás de Guimarães 2020,D1,unclear,"The exclusion criteria were women without clinical information, including AMH or AFC.","PDF p2 (182), section2.1 Data; exclusion denominator not reported"
+3,Brás de Guimarães 2020,D2,low,"woman’s age (years), total dose of gonadotropin (IU), number of eggs, number of embryos and AFC","PDF p7 (187), section3.1; timing explained at p10, Discussion"
+3,Brás de Guimarães 2020,D3,low,Live birth was defined as at least one infant born alive after 24 weeks gestation,"PDF p3 (183), section2.2 IVF/ICSI Procedures"
+3,Brás de Guimarães 2020,D4,high,"1374 cases were used, with a 1:1 ratio (687 cases for each class)","PDF p3 (183), section2.4; SMOTE & Tomek-links before adding72 cycles and partition"
+3,Brás de Guimarães 2020,D4,high,70% ... training; 15% ... validate; remaining15% ... test; entire dataset n=1446,"PDF p4 (184), section2.4.1; exact numbers and proportions from text"
+3,Brás de Guimarães 2020,D4,high,Evaluation lists AUROC and accuracy; no calibration analysis reported in supplied complete article,"PDF p5 (185), section2.4.3; Results pp7-8, Discussion pp9-10; negative finding, no invented quotation"
+4,Goyal 2020,Intended use,not applicable,before in-vitro fertilization treatment,PDF p1 title; conclusion PDF pp9-10 describes counselling before treatment
+4,Goyal 2020,D1,unclear,Patient Age at Treatment ... value999 ... eliminated; donor cycles excluded; stimulated cycles retained,"PDF p3, Dataset description / Pre-processing; paraphrased conditions, counts not reported"
+4,Goyal 2020,D2,high,Fresh eggs collected; Eggs mixed with partner sperm; Embryos transferred,"PDF p4, Table1; current-cycle definitions in description column"
+4,Goyal 2020,D3,high,greater than 1 represents birth occurrence (positive class),"PDF p3, Pre-processing of dataset; following sentence says values>1 set1, remaining0"
+4,Goyal 2020,D4,high,70580 samples in each class; training93165; validation47995,"PDF p3, Pre-processing of dataset; negative samples removed before split"
+4,Goyal 2020,D4,high,Table3 hard-voting ROC-AUC71.70%; Fig4b Voting_Hard AUC=0.710,"PDF p9, Table3 last column and Fig4b legend; numerical discrepancy, not a quotation"
+5,Amini 2021,Intended use,not applicable,predict the personalized chance of an ART outcome before the treatment procedure,"PDF p6 (133), Discussion; continued clinical implication says whether to start ART"
+5,Amini 2021,D1,high,We included only those women for whom clinical pregnancy was confirmed observing an intrauterine gestational sac.,"PDF p2 (129), Participants and study design"
+5,Amini 2021,D2,high,number of injected oocytes; number of embryos; number of transferred embryos; day of embryo transfer,"PDF p2 (129), Participants and study design; predictor-list paraphrase"
+5,Amini 2021,D3,high,6071 clinically pregnant cycles;4930 successful deliveries;1141 unsuccessful deliveries,"PDF p2 (129), eligibility/Results; p3 (130), Table1 heading; numerical paraphrase"
+5,Amini 2021,D4,high,"SE,SP,PPV,NPV,ACC,AUC and95%CI; no calibration evaluation reported","PDF p2 (129), Statistical analysis; p4 (131), Table2; absence confirmed across supplied complete article, not a quotation"
+5,Amini 2021,D4,high,"Age-category frequencies sum6468, whereas Table1 heading n=6071 (calculated)","PDF p3 (130), Table1, age category rows, visually confirmed; sums not treated as corrected sample size"
+6,Liang 2021,Intended use,not applicable,provide potentially valuable suggestions for clinicians and infertile couples before frozen-thawed embryo transfer,"PDF p2, Introduction"
+6,Liang 2021,D1,unclear,with complete protocols and outcomes; cycles that were dropped out excluded,"PDF p2, section2.1 Patient selection; paraphrased inclusion/exclusion clauses, missing counts"
+6,Liang 2021,D2,unclear,IVF procedures recorded in Supplementary Materials; candidate-factor definitions in Supplemental Table1,"PDF p2, sections2.1-2.2; absent materials. Final nine factors visible PDF p3 Fig1 and p4 Table1"
+6,Liang 2021,D3,low,delivery of any viable neonate at or more than 28 weeks of gestation,"PDF p2, section2.3 Outcome; medical-record ascertainment in following sentence"
+6,Liang 2021,D4,high,"by feeding all the samples, the screening model was trained","PDF p2, section2.5; factor screening before prediction-model10-fold CV described in next paragraph"
+6,Liang 2021,D4,high,28 candidate factors ->9 screened factors; mean ROC AUC0.83 +/-0.02,"PDF p2 section2.5; p3 Figs1-2; p4 Results. SD, not95%CI"
+7,Benchaib 2022,Intended use,not applicable,choose the blastocyst(s) to be transferred,"PDF p8, Conclusion; objective also PDF p2 Introduction"
+7,Benchaib 2022,D1,high,number of babies did not match the number of transferred blastocysts were excluded,"PDF p2 section2.2 and p4 section2.3.4; failures retained, explicit outcome-dependent eligibility"
+7,Benchaib 2022,D2,unclear,morphokinetic parameters were annotated by different persons,"PDF p8, Discussion; acknowledged measurement heterogeneity and missing data"
+7,Benchaib 2022,D3,unclear,"196 validating cycles:147 no delivery,49 delivery;294 validating blastocysts",PDF p4 Results and p5 Table2; no clinical live-birth definition found in pp1-10
+7,Benchaib 2022,D4,high,"area under the curve (AUC), accuracy, precision, Recall, and F1 score","PDF p3 section2.3.1; Tables3-4 pp6,8; no calibration evaluation in complete article"
+7,Benchaib 2022,D4,high,733 training blastocysts split into6 partitions;122 blastocysts per partition stated,PDF p4 Fig1; grouping at patient/cycle level not documented;733 versus6x122 discrepancy preserved
+8,Chen Z 2022,Intended use,not applicable,sex hormones ... collected at two time points ... basal:0; second day after trigger:1,"PDF p1 (997), predictor collection; numerical paraphrase; no explicit deployment point found"
+8,Chen Z 2022,D1,unclear,patients with missing data,"PDF p1 (997), exclusion criteria; exclusion counts not supplied"
+8,Chen Z 2022,D2,unclear,estrogen levels on the second day after trigger (E21),"PDF p2 (998), top XGBoost features; deployment timing not explicitly stated"
+8,Chen Z 2022,D3,low,giving birth to live newborns at >28 weeks of gestation,"PDF p1 (997), outcome definition; cumulative same-stimulation fresh/frozen denominator continues p2"
+8,Chen Z 2022,D4,unclear,A backward stepwise variable selection procedure with bootstrap resampling was applied to select the variables.,"PDF p2 (998), Statistical analyses; does not establish bootstrap-corrected performance"
+8,Chen Z 2022,D4,unclear,3012 patients used for model construction; performance in unavailable Supplementary Table4 and Fig1,"PDF p2 (998), Results and Fig1; no explicit validation-set description in supplied pp1-3"
+9,Zhang 2022,Intended use,not applicable,designed as a pretreatment model ... before the IVF treatment started,"PDF p2, Data Acquisition; short excerpt with ellipsis"
+9,Zhang 2022,D1,high,cycles with completed ET were included,"PDF p2, Data Acquisition"
+9,Zhang 2022,D2,unclear,"Table1: Embryos Transferred; Fig2 final31 features: Elective Single Embryo Transfer, not actual embryo-count field",PDF p4 Table1 and p5 Fig2 enlarged image; conflicts with p2 exclusion of transfer features
+9,Zhang 2022,D3,low,"1 if there were one or more live births as a result of this cycle,0 otherwise","PDF p4, Table1, Live-Birth Occurrence row; numeric definition"
+9,Zhang 2022,D4,high,The sub-dataset with the best score was selected as the dataset for further model training.,"PDF p3, Model Training; DT/LD preliminary evaluation of4 balanced subsets"
+9,Zhang 2022,D4,high,"24680 samples, exactly equal positive/negative classes;10-fold CV",PDF p3 Model Training and p5 Assessment Method; rebalancing precedes CV
+9,Zhang 2022,D4,high,we were unable to identify patients who had undergone more than one cycle in the dataset,"PDF p9, Discussion / limitations; grouped patient validation unavailable"
+10,Liu X 2023,Intended use,not applicable,after the first cycle predicts the chances of future success for couples considering further treatment,"PDF p10, Discussion; pretreatment and post-treatment uses distinguished in preceding sentences"
+10,Liu X 2023,D1,unclear,Fig1: initial1973; age exclusion1; missing-data handling155; final1857; arithmetic difference40 (calculated),"PDF p4, Fig1; diagram visually verified"
+10,Liu X 2023,D2,unclear,Post-cycle predictors include serum HCG; hCG<5 in509 and>=5 in1348,"PDF p3 predictive-factor list, p6 Table1, p7 Fig3; sampling time not reported"
+10,Liu X 2023,D3,unclear,delivery of at least one live baby at or after 24 weeks gestation,"PDF p3, Outcome; subsequent-cycle horizon/linked complete-cycle denominator not operationalized in methods"
+10,Liu X 2023,D4,high,"AUC,accuracy,sensitivity,specificity,PPV,NPV; no calibration evaluation in article","PDF p3, Model evaluations; Table2 pp8-9; complete-article negative finding, not a quotation"
+10,Liu X 2023,D4,high,training1423;validation356;testing78;bootstrap30% of total data200 times,PDF p3 Results/methods and p4 Fig1; no split event counts or optimism correction established
+11,Mourad 2023,Intended use,not applicable,patients with a positive pregnancy test result after elective single ET,"PDF p2 (490), Introduction/Materials and Methods; second beta-hCG48h later in same section"
+11,Mourad 2023,D1,unclear,1995 declared; CHUM outcome counts180+359; Ovo330+959; combined1828 (calculated),"PDF p3 (491), Results and Table1; excluded follow-up counts not reported in p2 eligibility"
+11,Mourad 2023,D2,low,The second beta-hCG ... was drawn48 hours later,"PDF p2 (490), Materials and Methods; first test10-13days after transfer depending embryo day; numerical paraphrase"
+11,Mourad 2023,D3,unclear,live birth (live fetus >=24 weeks of gestation),"PDF p2 (490), measured outcomes; >= symbol normalized from PDF; delivery versus ongoing fetal viability not resolved"
+11,Mourad 2023,D4,unclear,Missing data were addressed via pairwise deletion,"PDF p2 (490), Materials and Methods; missingness counts not reported"
+11,Mourad 2023,D4,unclear,597 validation observations; actual live birth102+412=514 (calculated),"PDF p5 (493), Table4, actual-value live-birth column. Failure-positive coding must not be reversed"
+12,Cai 2024,Intended use,not applicable,pretreatment prediction models ... before the treatment is given,"PDF p2 (365), Introduction; per-OPU2year target Study cohort"
+12,Cai 2024,D1,unclear,28743 reviewed;26382 retained;2223 incomplete cycles;138 nonfertility cancellations excluded,"PDF p3 (366), Study cohort; related cancellations/no-embryo cycles retained per p2"
+12,Cai 2024,D2,unclear,The diagnoses were made by clinicians for individual patients with different preferences.,"PDF p6 (369), Strength and limitation; diagnostic reformatting p2"
+12,Cai 2024,D3,unclear,only the first delivery event from the same OPU is taken into account,"PDF p2 (365), Study cohort;2year follow-up and linkedFET defined, clinical infant-alive definition not found"
+12,Cai 2024,D4,unclear,1412/28743 cycles with missing BMI/endocrine values; MICE used; training-only fitting not stated,"PDF p2 (365), Missing data; training/temporal split in next section"
+12,Cai 2024,D4,unclear,development24086 with15174 births; temporal2296 with1501 births; Table2 all26382,"PDF p4 (367), Table1; PDF p7 (370), Table2; pooled local figures cannot be called independent temporal performance"
+12,Cai 2024,D4,unclear,Lasso models selected as final; isolated algorithm AUCs in Supplementary FigS4/TableS4 unavailable,"PDF p3 (366), Centre-specific model prediction models"
+13,Liu L 2024a,Intended use,not applicable,customizing the embryo transfer strategy,"PDF p4, Clinical application; p8 details transfer strategy selection after six observed indicators"
+13,Liu L 2024a,D1,unclear,1405 women; each transferred1-2 embryos in each fresh cycle; screened denominator not supplied,PDF p2 Study design and participants
+13,Liu L 2024a,D2,unclear,OSI=number of retrieved oocytes/total gonadotropin dose x1000,"PDF p5 Table1 footnote; post-retrieval input, compatible with transfer planning but not pre-stimulation prediction"
+13,Liu L 2024a,D3,high,who remained alive for at least one month,"PDF p2 Study design and participants, live-birth definition after delivery of fetus alive at28weeks"
+13,Liu L 2024a,D4,high,we have tried dozens of combinations ... the one with the best prediction performance is our final selection,"PDF p3, Artificial neural network model; ellipsis omits list of train/validation/test percentages"
+13,Liu L 2024a,D4,high,Univariate/multivariate screening of1405 samples precedes ANN/SVM modelling;7 of16 factors selected,PDF pp3-5 Fig1 and statistical/model construction sections; calibration/DCA of82-case application at p8 Fig6
+14,Liu L 2024b,Intended use,not applicable,single vitrified-warmed blastocyst transfer (SVBT) in women of advanced maternal age,PDF p9 Principal findings; p3 eligibility age35+
+14,Liu L 2024b,D1,unclear,1168 cycles; some patients undergoing multiple treatment cycles,PDF p3 Data collection; p10 limitations; screened denominator not reported
+14,Liu L 2024b,D2,low,Blastocyst assessment was based on the Gardner grading system,PDF p3 Embryo culture and blastocyst scoring; pp3-4 predictor definitions
+14,Liu L 2024b,D3,low,delivery of any viable infant at 28 weeks of gestation or later,PDF p3 Outcome assessment; p5 Table1:352 live birth/1168 cycles
+14,Liu L 2024b,D4,high,No calibration assessment reported in all12 main pages; SMOTE training-only and balanced-data-then-split descriptions conflict,PDF p4 Data preprocessing/model construction; pp6-8 Fig2/Table2; p10 repeated-cycle limitation
+15,Liu Z 2024,Intended use,not applicable,contribution of the cleavage stage morphological parameters to the blastocyst selection,PDF p2 Introduction; p3 four prediction scenarios
+15,Liu Z 2024,D1,low,8383 single-blastocyst transfers; Twenty-three cycles were excluded due to flaws in follow-up data,PDF p2 Materials and methods;2013-2019
+15,Liu Z 2024,D2,low,according to the Istanbul consensus,PDF p2 Laboratory procedures and embryo assessment; p3 predictors include cycle/cleavage/blastocyst morphology
+15,Liu Z 2024,D3,low,delivery of at least one viable infant after 27 weeks of gestation,PDF p2 Luteal phase support/outcome; p4 Table1 live birth N4027/no live birth N4356
+15,Liu Z 2024,D4,unclear,internal validations with randomly split datasets ... (Table S3),PDF p5 Results; ellipsis omits also performed to evaluate stability; missing TableS3; p8 Fig2 calibration
+16,Peng 2024,Intended use,not applicable,at the beginning of IVF,PDF p2 Introduction; p6 Discussion also baseline for upcoming ART treatments
+16,Peng 2024,D1,unclear,13620 initial;1682 incomplete data;452 lost follow-up;11486 analysed,PDF p3 Fig1/Results; exclusions2134/13620=15.67% calculated
+16,Peng 2024,D2,high,"E2, LH and P on HCG day","PDF p4 Machine learning results, final7predictors; p2 intended beginning of IVF"
+16,Peng 2024,D3,unclear,whether a live birth occurred during a single ART cycle,PDF p2 Definitions of outcome and candidate predictors; no further live-birth definition located
+16,Peng 2024,D4,high,optimal cut-off values with regard to the live birth outcome,"PDF p2 Statistical analysis: full-data screening, then predictor dichotomization then CV/bootstrap; p4 optimized cutoffs; p8 Table3 Brier"
+17,Abdala 2025,Intended use,not applicable,at the time of embryo warming,PDF p8 Discussion; clinician counselling and embryologist euploid embryo selection
+17,Abdala 2025,D1,unclear,1979 seFET cycles of1459 couples,PDF p4 Results; pp2-3 inclusion; no screened/missing-follow-up counts found
+17,Abdala 2025,D2,low,Embryo grading was performed by senior embryologists by pairs,PDF p2 Blastocyst grading; p4 final predictors; p8 warming-time intended use
+17,Abdala 2025,D3,unclear,Table2 BMI:419+346+237=1002 live births among1979 cycles; clinical LB definition not reported,"PDF p5 Table2; computed sum of mutually exclusive BMI categories, agrees Table3 prognosis groups"
+17,Abdala 2025,D4,high,Tuning parameters were selected to achieve stable overall performance among each paired training and validation set,PDF p3 Data collection/statistical analysis; p4 significant-variable screening/backward removal; patient allocation not cycles explicitly stated p3
+18,Bai 2025,Intended use,not applicable,reducing unnecessary embryo transfers,PDF p10 Discussion; explicitly says model does not currently support pretreatment counselling
+18,Bai 2025,D1,unclear,3880 women;1255 missing/lostfollowup;2625 analysed,PDF pp2-3 Fig1; p6 Data check states no imputation;1255/3880=32.35% calculated
+18,Bai 2025,D2,unclear,Serum HCG Test Results; Number of Clinical Pregnancies,PDF p7 Fig3 candidate correlation matrix; p4 HCG14days post-transfer; pp6-7 LASSO described without final retained list
+18,Bai 2025,D3,high,clinical pregnancy2031; live birth1711; non-live birth320,"PDF pp2-3 Fig1: live-birth groups branch from clinical pregnancy, excludes594 nonclinical pregnancies"
+18,Bai 2025,D4,high,multiple attempts to ascertain optimal division,PDF pp6-7 Data preprocessing/feature selection; next sentence best result selected; no calibration in all13pages
+18,Bai 2025,D4,high,LightGBM train AUC0.912503; test AUC0.745680,"PDF p9 Table2;p11 Fig6D; abstract0.913 represents training, not heldout AUC"
+19,Borji 2025,Version,not rated,Expected DOI10.1016/j.cmpb.2025.108979 not found in23-page candidate; title/authors match but no CMPB imprint,PDF p1 title page visually checked; full-PDF text search for target DOI negative; DOI location not found
+20,Cumberbatch 2025,Intended use,not applicable,embryo prioritization when several blastocysts exist,PDF p5 Clinical perspective; also patient counselling
+20,Cumberbatch 2025,D1,unclear,213 IVF cycle records;190 cases after missing/invalid target removal;23/213=10.80% calculated,PDF p2 Methodology; no collection dates/exclusion breakdown reported
+20,Cumberbatch 2025,D2,unclear,Number of MII Eggs after retrieval; Failed IVF Attempts; Successful IVF Attempts,PDF p2 seven selected features; attempt-count temporal definition not reported
+20,Cumberbatch 2025,D3,unclear,Holdout live birth support11; no live-birth support26; total37,"PDF p3 Table2,p4 Table4,p5 Table6; no clinical live-birth definition located"
+20,Cumberbatch 2025,D4,high,No calibration/probability-error assessment in complete7pages; repeated cycles treated independently; test11events,PDF pp2-6 methods/results/discussion; p5 Limitations: repeated cycles for same woman independent
+21,Jain 2025,Intended use,not applicable,whether to continue or adjust treatment strategies,"PDF p10 Model discrimination discussion; p2 personalized treatment planning, no fixed time point"
+21,Jain 2025,D1,unclear,"2000 samples,95attributes,62features after preprocessing; eligible registry denominator not supplied",PDF p4 Dataset;2010-2016 HFEA described; selection mechanism not specified
+21,Jain 2025,D2,unclear,"patient demographics, clinical treatment details, and embryonic development data","PDF p4 Algorithm input; final62feature list absent, temporal availability unresolved"
+21,Jain 2025,D3,low,0 indicated no live births and1 indicated at least one live birth,PDF p6 Data preprocessing; p4 actual IVF procedures/registry source
+21,Jain 2025,D4,high,No calibration/probability-error assessment in16pages; OOF base models and training-only final refit explicitly described,"PDF pp6-8 stacking/tuning; pp8-13 evaluation metrics/ROC/radar/SHAP/learning curves/ablation, no calibration"
+22,Lantzi 2025,Intended use,not applicable,one with all selected features (30) and one with only pre-cycle features (18),"PDF p11 Data processing; pp9,35 separate in-cycle versus before-treatment purposes"
+22,Lantzi 2025,D1,unclear,1546070 ART attempts1991-2018;665244case reports2010-2018; criteria for case-level losses not supplied,PDF pp10-11 Data description/wrangling and Table1; source population includes IVF and DI
+22,Lantzi 2025,D2,unclear,with two or three previous live births,PDF p29 text explicitly historical births; complete-panel current embryos transferred p20 Table9; TableS1 absent p36
+22,Lantzi 2025,D3,low,breathes or shows any other evidence of life,PDF p11 Modeling WHO definition; p9 successful outcome at least one live-birth event; p10 treatment-attempt records
+22,Lantzi 2025,D4,unclear,"Holdout n133049; actual YES32047, NO101002; untouched20%holdout stated","PDF p23 Fig8,p29 Fig17 screenshots; p12 holdout not available to any model before final selection; calibration by risk bin p23 Fig9,p30 Fig19"
+22,Lantzi 2025,D4,unclear,"Table1 665244rows versus Tables8/10 655244rows;50,000sampling statement and64%425756comparator also reported","PDF pp11,19-20,26; patient-level grouping/training-only processing not reported in supplied main article"
+23,Liu Y 2025,Intended use,not applicable,"clinical decision-making, improving resource allocation, and managing patient expectations",PDF p2 Introduction; no explicit deployment time point; p3 inputs include current-cycle embryos
+23,Liu Y 2025,D1,unclear,Methods48514 Aug2009-May2018; Fig2 July2007-Dec2017 then40478 after cleaning,PDF p2 Patient selection;p5 Fig2; calculated loss8036/48514=16.56% if same stated starting cohort
+23,Liu Y 2025,D2,unclear,Total dose of Gn injection; Number of retrieved oocytes; Number of high-quality embryos,PDF p3 Data collection/selection; timing after stimulation/embryo creation; intended time not fixed
+23,Liu Y 2025,D3,unclear,Binary outcome labels (live birth vs. non-live birth),PDF p5 Results; no clinical definition/ascertainment/live-birth counts located in10main pages
+23,Liu Y 2025,D4,high,No calibration/probability-error evaluation in10pages; Table1 reports5fold mean+/-SD; Fig3 only training binary-cross-entropy loss,PDF pp4-8 Assessment/results/Table1/Figs2-4; preprocessing flow before split p5; no SI referenced
+24,Sengupta 2025,Intended use,not applicable,pre-treatment counseling,PDF p1 Abstract;p7 Conclusion; pp2-3 first complete IVF-cycle target
+24,Sengupta 2025,D1,unclear,2908records ->2150 after758incomplete-cycle exclusions ->1993 after157further exclusions,PDF p3 Fig2/Data acquisition;p4 exclusions; initial embryo-entry versus patient language unresolved
+24,Sengupta 2025,D2,high,hormone produced by the placenta after a successful implantation,PDF p2 beta-hCG definition in independent features; p3 selected panel;p4 all features chosen for analysis
+24,Sengupta 2025,D3,unclear,cumulative live birth probability for the first complete IVF cycle,PDF pp2-3 objective; pp3-5 binary target but no clinical definition/linked transfer horizon stated
+24,Sengupta 2025,D4,high,80:20 split was considered because 70:30 and 60:40 split resulted in inferior metrics,PDF p4 Model training; p6 Fig4C calibration explicitly present
+24,Sengupta 2025,D4,high,BoVe Table2 AUC0.93 versus Fig4B0.922; same399test cases described,PDF p5 Table2/derivation cohort;p6 Fig4B; unexplained performance reporting conflict
+25,Wu 2025,Intended use,not applicable,personalized counseling prior to embryo transfer,PDF p2 Background; rapid decision2-3days after retrieval; eligibility cleavage-stage transfers p3
+25,Wu 2025,D1,unclear,51047initial;13362fully tracked fresh records in text versus13697in Fig1;11728final,PDF p3 Data inclusion;p4 Fig1; losses-to-followup count not isolated
+25,Wu 2025,D2,unclear,assessment of embryo quality relied on visual inspection of morphology,PDF p10 limitations; pp5-6 Table1current embryo grades/hormones; supplementary definitions absent
+25,Wu 2025,D3,unclear,3971live births;7757no live birth;11728total,PDF p3 Basic characteristics; no further clinical live-birth definition found in supplied main text
+25,Wu 2025,D4,high,p<=0.05 or top-20Random Forest importance ranking;11728records55features before Data Splitting,PDF p3 feature-selection protocol and pp5-6 Table1full-cohort p-values;p4 Fig1 sequence explicitly reduced-feature full cohort then split
+26,Xing 2025,Intended use,not applicable,本研究的目的是在治疗开始前为患者提供一个可供参考的成功率预测,PDF p2 (printed359) Data acquisition; features explicitly pretreatment
+26,Xing 2025,D1,high,2037screened;112no retrieval/no transfer excluded;81interrupted/incomplete;1792retained,PDF p4 (printed361) Fig1; pretreatment intended population p2
+26,Xing 2025,D2,low,既往活产史;既往流产史;体外受精失败次数;AMH;AFC;精子DFI,"PDF p5 Table1,p6 Fig3; p2 no in-treatment variables included"
+26,Xing 2025,D3,low,每个启动周期至少生下一个活产婴儿被定义为活产,PDF p2; complete cycle=fresh+related frozen transfers from single stimulation;1036/1792 p3
+26,Xing 2025,D4,unclear,"Training1254,test538;5foldCV,calibration curves/log loss reported; fitting/tuning nesting not specified",PDF pp2-3 methods;p5 Tables1-2;p6 Fig2; no missing SI or confirmed test-based tuning
+27,Yao 2025,Intended use,not applicable,IVF pretreatment prognostic counseling,PDF pp1-2;p10-11 own-egg/uterus initiated cycles;firstcycles/age<40DNMVcomparison
+27,Yao 2025,D1,unclear,IVF-related cancellation/no viable oocytes/no blastocyst retained; missing outcomes and freeze-all with noFET excluded,PDF p10 inclusion/exclusion; exclusions not quantified; shared-comparison criteria p11
+27,Yao 2025,D2,unclear,did not assume methods of clinical diagnoses were the same across centers,PDF p4 Table3footnote3;p10 final centre-specific predictors referred to SupplementaryFig1
+27,Yao 2025,D3,high,at least one live birth or clinical ongoing pregnancy,PDF p10 IVFlabeling;p11~4.8%ongoing removed forDNMV2; numericDNMV2AUCs unavailable
+27,Yao 2025,D4,unclear,CV responses forROC-AUC; production responses forcalibration/Brier/PR; LMV samecentres later periods,PDF pp10-11 statistical methods;p3 Table1;p9 Fig5; weighting repeatcycles not equivalent proven groupedCV
+28,Zhu 2025a,Intended use,not applicable,fresh embryo transfer cycles,"PDF pp2-3 scoped PCOS/antagonist fresh-transfers; final7features p7 imply pretransfer point, not pretreatment-only"
+28,Zhu 2025a,D1,low,1431screened;369excluded(98+29+52+41+62+87);1062included,PDF p4 Fig1;87more-missing/1431=6.08%calculated;clinical eligibility/exclusions pp2-3
+28,Zhu 2025a,D2,low,"number of transferred embryos,blastocyst transfer,female age,duration of infertility,BMI,testosterone,HCG-dayP","PDF p7 Modelinterpretability; p3 hormone/cycle timings,p5Table1units; available at transfer planning"
+28,Zhu 2025a,D3,low,"heartbeat, respiration, umbilical cord pulsation, or muscle tone","PDF p3 Datafeaturedefinition:delivery28+weeks; p5Table1test136/319,training330/743livebirths"
+28,Zhu 2025a,D4,unclear,Abstractfeature selection within training data; Fig1 both branches meet featureselection; test136events/calibrationBrierreported,PDF p1Abstract;p4Fig1;p5Table1;p7Table3;p8Fig4; no proven leakage from ambiguousdiagram alone
+29,Zhu 2025b,Intended use,not applicable,embryological data available prior to embryo transfer,PDF p2 objective;p12 clinical transfer strategy use
+29,Zhu 2025b,D1,low,2217screened;381excluded(73+15+112+121+39+21);1836included,PDF p3 Fig1;73more-missing/2217=3.29%calculated;laparoscopic endometriosis/fresh-transfer scope p2
+29,Zhu 2025b,D2,low,normal fertilization number;number of transferred embryos;rAFS stage;AMH;AFC,"PDF pp1,4-5,8,11;clinical/embryological inputs available before transfer;8versus9enumeration noted"
+29,Zhu 2025b,D3,low,delivery of a viable neonate,"PDF p4 definition includes vital signs,28+weeks andviablepre28; p2train525/1285,test214/551"
+29,Zhu 2025b,D4,unclear,Grid5foldCV;test551/214events;calibration/Brier; training-onlyselection/imputation not specified,"PDF pp4-5modelmethods;p3Fig1jointbranches;p7trainingTable2;p8Table3;p9Fig3calibration;contradictoryAUCs pp1,8-10"
+30,Alson 2026,Intended use,not applicable,only parameters available prior to initiation of the first IVF/ICSI cycle,"PDF p8 Discussion;baseline primarymodel versus separate later-input exploratorymodel pp4,8"
+30,Alson 2026,D1,low,1037women prospectively included;first-IVF/ICSI Jan2019-Oct2022;policyeligibilityage25-39/BMI18-30,PDF p2 Studypopulation;total1037and424births p5Table3;no largeunexplainedexclusionreported
+30,Alson 2026,D2,low,"Prior to starting ART, all women underwent a systematic two (2D) and three (3D) dimensional TVUS examination",PDF p2;singleexpert/MUSA/IDEAmeasurementdefinitions;later-stageexploratoryvariables separatedp8
+30,Alson 2026,D3,low,birth of a living child at>22gestational weeks,PDF p2;indexcycleembryosuseduntilLBornoneleft;424/1037women p5Table3
+30,Alson 2026,D4,unclear,80/20stratifiedsplit;training5foldOptuna;SHAPremovalnesting/testevents/calibrationdetails unresolved,"PDF pp3-4 modelmethods;p5Fig1CV/testAUC;Supplementaryposthocresultsabsent pp4,9,11"
+31,Bai J 2026,Intended use,not applicable,首次FET;移植胚胎数;转化日子宫内膜厚度,PDF pp2-3 aims/predictor timing;pretransfer planning implied by actual inputs
+31,Bai J 2026,D1,unclear,2872screened;306multiple-missing and477incomplete-followup excluded;1756retained,PDF p4Fig1; p11discussion477(16.6%)including multiple missing conflicts separate flow categories
+31,Bai J 2026,D2,low,移植前3个月内;本次移植的转化日子宫内膜厚度、胚胎类型,PDF p3 observation variables; pp5-6Table1baseline/pretransfer measurements
+31,Bai J 2026,D3,low,妊娠满28周及以上，出生体质量达1000g及以上,"PDF p3 outcome; at least one vital sign;715/1756p3Results,p5Table1"
+31,Bai J 2026,D4,unclear,"Mean imputation,SMOTE,standardization,RFimportance<0.01;train1229/test527;testlogloss0.593-0.665",PDF pp3-4 preprocessing/Results; p8Table2; no explicit train-only scope or95%CI
+32,Chen 2026,Intended use,not applicable,decisions regarding GH use are largely empirical,PDF p2Introduction; pp2-3GHduration actual treatment untilretrieval; no fixed deployment checkpoint stated
+32,Chen 2026,D1,unclear,Each woman contributed only one GH-assisted oocyte retrieval cycle,"PDF p2population; incomplete data/loss exclusions samepage,counts in absentSupplementaryFig1"
+32,Chen 2026,D2,unclear,determined from the actual duration of GH administration before oocyte retrieval,PDF pp2-3Definitions; totalGndose amongtop-six models p6Fig1; initial versus poststimulation intended point unresolved
+32,Chen 2026,D3,low,at least one live birth resulting from embryos generated from the GH-assisted IVF/ICSI oocyte retrieval cycle,PDF p2Definitions; fresh+linkedFET untilbirth/exhaustion;cancellationsnegative;763/1782p3
+32,Chen 2026,D4,high,Variables with p<0.05 in multivariable logistic regression...used to construct the LR-based models,PDF p3modelling; p5Table2fullcohort1782regression selection; p3internal10foldCV/500bootstrap follows selection
+33,Fatmawati 2026,Intended use,not applicable,using routinely available baseline and cycle-specific variables,"PDF p2aim;p1earlyestimate,p10beforetransferweight/freeze-alluses; no singlecheckpointstated"
+33,Fatmawati 2026,D1,unclear,incomplete records (>10% of variables missing),PDF p3Participants;p4consecutive1245/680events; screened/excludedpatientcounts not supplied
+33,Fatmawati 2026,D2,unclear,number of top-quality embryos on day3 or day5,PDF p3Variables; harmonizedgrading/sameAMHplatform; p10clinicaluses include weightreductionbeforetransfer
+33,Fatmawati 2026,D3,unclear,cryopreserved embryos remaining unused at the data cut were classified as not having achieved cumulative live birth,"PDF p3Outcome;>=24weeks,minimum12months;unusedembryos casesnotquantified"
+33,Fatmawati 2026,D4,low,"all preprocessing, imputation and hyperparameter tuning were nested within the cross-validation",PDF p4Dataquality;30%validationaccessedonce; p3onewomanonecycle;p5-7calibration/holdout/bootstrap
+34,Fraire-Zamora 2026,Intended use,not applicable,main purpose...not to build a predictive model but to use explainable ML techniques,PDF p9Discussion; p1counselling/transparentcareimplications;completedcycleinputs p6Table3
+34,Fraire-Zamora 2026,D1,unclear,12308initial;8066afterdiscardingpatientswith>20%missingvariables;4242/12308=34.47%calculated,PDF pp2-3Data preparation; noexcludedpatientcomparisons in suppliedmain
+34,Fraire-Zamora 2026,D2,high,Total number of D3+D5 embryos transferred (fresh+cryopreserved),PDF p6Table3; p2Outcome cycleendsatlivebirth/exhaustion; accumulatedtransfersnotavailablebeforeoutcome
+34,Fraire-Zamora 2026,D3,low,Live birth was defined as giving birth to live newborn(s) at>28weeks of gestation,PDF p2procedure/outcome; p4Table1exact3228/8066;>=1yearfollowup
+34,Fraire-Zamora 2026,D4,high,single run of the dataset;optimal parameters from the best fold;8066instances forcorrelations,PDF p4SHAP/correlationmethods; p5selection;p9SHAPnotaggregatedouterfolds; notnestedselected-featureevaluation
+35,Fu 2026,Intended use,not applicable,Stage1(pre-treatment);Stage2(post-retrieval);Stage3(post-transfer),PDF p6Dynamicsequentialprediction; p14differentavailablecasecounts2217/2154/2332
+35,Fu 2026,D1,high,cycles without embryo transfer and cycles with undefined pregnancy outcomes were not eligible,PDF p3population;p16limitations countsunavailable; p6samecohortStage1pretreatment
+35,Fu 2026,D2,low,Variables available at each stage; embryoqualityjointlyencodedtransfercountandhigh-qualityembryocount,PDF p3qualitydefinition;p6sequentialstage-specificmodels;p14noearlier-stageuseofembryology
+35,Fu 2026,D3,unclear,cycles near the end of the study period had shorter follow-up,PDF p16Limitations; pp2-3live-neonatenumerator/linkedfreshFET; unusedembryosassumednegative
+35,Fu 2026,D4,high,"Performance therefore peaked at eight features, supporting the decision",PDF p13Featureselection sensitivity/Table4:explicit testAUCused3/5/8/10/12optimalconfigurationchoice;p16patientIDabsent
+36,Guo 2026,Intended use,not applicable,Stage1(baseline stage):Variables available at initial consultation,PDF p2staging; p10Stage3immediatelypriortoembryotransfer
+36,Guo 2026,D1,high,cycles cancellation before oocyte retrieval or embryo transfer,PDF p2eligibility; Stage1initialconsultation;p3Fig1showsnoexclusioncounts
+36,Guo 2026,D2,low,Variables acquired in later stages were not introduced into earlier-stage models,PDF p3staging; HQembryogrades/timingsdefined; p10Stage3preET
+36,Guo 2026,D3,low,delivery of at least one live infant after24weeks of gestation,PDF p2outcome;multiplepregnanciesoneevent;indexfreshcycles
+36,Guo 2026,D4,low,test set...fully locked unseen dataset;all preprocessing steps...exclusively on the training set,PDF pp2-3;p4optimization/calibration;independentWuhanhospital2058external p2;p7-8calibrationandCIs
+37,Lin 2026,Intended use,not applicable,risk stratification in early pregnancy,PDF p10Discussion;p13Conclusionearlyposttransfermonitoring; day14beta-hCGavailablethen
+37,Lin 2026,D1,unclear,127included;completeclinical/followupdatarequired;screened/excludedcountsnotreported,PDF pp2-3Data collection; p12Fig6nonpregnantbranchincluded
+37,Lin 2026,D2,low,beta-hCG levels measured on day14 after embryo transfer,"PDF p4SHAP,p10earlypregnancyuse; p3Gardnerembryograding; no pretreatment-onlyintendedpoint"
+37,Lin 2026,D3,low,Live birth was defined as the delivery of a viable infant after28weeks of gestation,PDF p3Reproductiveoutcomes;79yes/48no p5Table1; p12Fig6includesnonpregnantwomen
+37,Lin 2026,D4,high,"P<0.5univariablescreening/backwardselection;wholecohort127/48nonbirths,then70/30split",PDF p3Statisticalmethods;p7-8Tables2-3fullcohortselection; p11Table4evaluationmatricesall39total
+38,Liu B 2026,Intended use,not applicable,individualized pre-treatment CLBR predictions,PDF p16Clinicalutility;p4finalinputsprogesteroneonGnstartingday/downregulation;useimpliedatIVFstartafterEST
+38,Liu B 2026,D1,low,220screened;11lostfollowup+5incompleteclinical+7severemalefactor+3noIVF=26excluded,PDF p7Fig1;16/220=7.27%calculated; p3eligibilityallowsfollowuptocyclecancellation
+38,Liu B 2026,D2,low,"AFC,progesteroneonGnstartingday,downregulation,cystdiameter,previouslivebirthhistory",PDF p7finalfeatures;p4timing/units/recordextractionagreement;availableatGnstartafterEST
+38,Liu B 2026,D3,unclear,BirthAFC9versusnonbirth13;agecoefficient+0.150;AFC+0.104;subgroupAFC>=12birth63.2%vs39.3%,"PDF p8Table1;p9Table2;p15Subgroupanalysis;positiveoutcomecodingnotexplicit,do notinvertlabels"
+38,Liu B 2026,D4,unclear,training-setunivariateselection;MICE m=10;train135/validation59;calibration/Brierreported,PDF pp4-6methods;p12Table3;imputationfold/splitscopeandtrainingeventcountsnotreported
+39,Liu L 2026,Intended use,not applicable,before initiating costly and invasive stimulation protocols,PDF p10baselinecounselling; pp1-4Stage1baseline/Stage2triggerday/Stage3pretransfer
+39,Liu L 2026,D1,high,inclusion:underwentembryotransfer;completedatleastoneoocyteretrievalcyclewithavailableEToutcomes,PDF p3Fig1;p2population; p5from7773ETpatients;beforestimulationusep10
+39,Liu L 2026,D2,unclear,"Embryo Quality Grade1,Grade2,Grade3,Grade4,Grade5","PDF p5Table1;p4stagedvariables;p5onlymoderate/goodlabels,nooperationalgradingdefinitionintheprovidedmain"
+39,Liu L 2026,D3,unclear,cryopreserved embryos remaining but no further transfers by the end of follow-up did not achieve a live birth,PDF p3Outcome;>=28weeksdefinition;noenddate/horizon/casecountorlabel-to-performanceclarification
+39,Liu L 2026,D4,unclear,"train863/197events,test371/85events;allprocessingtraining-only;CVparagraphn864;SHAPn370","PDF pp4-7methods/Table1/Table2;pp8,10sensitivityrederivedpartitions369/408/466; no patientgrouping/nestedfeatureselectiondetails"
+40,Luo 2026,Intended use,not applicable,patientspecificpredictionsandembryotransferplanning;currentembryospluspriorFETfailures,"PDF pp2,7-8predictors;p12individualpretransfercounsellingexample"
+40,Luo 2026,D1,low,Development3646-176=3470;prospective1513-46=1467;flownode1476conflicts,"PDF p3Fig1;p5Results1467;worst-casemissing176/3646=4.83%,46/1513=3.04%calculated"
+40,Luo 2026,D2,low,Number of previous FET transfers,"PDF p7Table1,p8Table2;p11-12historicalnatureexplicit;currentembryos/hormonetimingpp4,7"
+40,Luo 2026,D3,low,"at least one infant exhibiting cardiac activity, respiration, umbilical cord pulsation, or muscle tone",PDF p5Outcome:at/after28weeks;1430/3470and675/1467Results
+40,Luo 2026,D4,unclear,featureselectionontrainingdata;KNNimputationallvariables;prospective2024samecentrevalidation,PDF pp4-5methods;p13limitationssamecentretime-segmentedvalidation;p9calibration;p8/10Brier
+41,Minano Masip 2026,Intended use,not applicable,help optimize embryo selection,PDF p2aim;p12patientpredictionsbeforetransfer;p11beginning-treatmentclaiminconsistentwithavailableimages
+41,Minano Masip 2026,D1,unclear,259women;2330embryos;355transferredblastocysts;atleastoneblastocystrequired,PDF pp2-3;2016-2019p2versus2012-2019p1/p3;declinedtime-lapseexcludedwithoutcount
+41,Minano Masip 2026,D2,unclear,35clinicalvariables;SupplementaryTableS1,PDF p5clinicalfeatures;pp4-6imagingtiming;p9Fig3lastframes100hvs120hmethod;TableS1absent
+41,Minano Masip 2026,D3,unclear,livebirth35.74%;gestationalage37.29+/-2.7weeks;nooperationaldefinition,"PDF pp4-5outcomes,p8Results;meanisnotgestationalthreshold; nofollowupascertainmentdescription"
+41,Minano Masip 2026,D4,high,"ownresultmetricsaccuracy,AUC,precision,sensitivity,F1;no calibration/probability-error assessment","PDF p7Evaluation,p9Table3(allownoutcomes);p6Plattscalingisfittingnotassessment;p13SIscopepredictors/literatureonly"
+42,Nowak 2026,Intended use,not applicable,model was designed to optimize embryo selection,PDF p1aim;p2day5SET/morphokinetics;p4embryospecificprobabilityapplication
+42,Nowak 2026,D1,unclear,375IVFcycles2013-2022;29proceduresanomaliesexcludedfromtraining/testing,PDF pp1-2;screened/sourcepatients/exclusionrealvssyntheticcountsnotreported
+42,Nowak 2026,D2,unclear,total number of embryos transferred;characteristics of embryo transfer procedure,PDF p2candidatevariables;p4age_embryo_classimportanceandunresolvedFeatureEngineeringcrossreference
+42,Nowak 2026,D3,unclear,livebirthlabel;expert-generatedrecordswithcorrespondingprobabilityranges,PDF pp1-2;noclinicallivebirthdefinition/events/ascertainment;clinicalpregnancywordingMethods
+42,Nowak 2026,D4,high,combineddataset144syntheticrecords;70/20/10split;prototypes evaluatedusingvalidationandtest;approximately80000candidatemodels,PDF p2Results; p1futurevalidationtoassesscalibration;testnotspecifiedreal-only
+43,Ortiz 2026,Intended use,not applicable,intra-cohort embryo ranking,PDF p3 MosaicScore; p8 ranking rather than probability estimation
+43,Ortiz 2026,D1,low,264 transferred mosaic embryos; 0.06% missing data,PDF pp2-4 cohort and preprocessing; p4 Table1
+43,Ortiz 2026,D2,low,"four predictors: embryo quality, biopsy day, mosaicism type and level",PDF p7 Table4; p8 Discussion; numeric paraphrase
+43,Ortiz 2026,D3,unclear,96/264 live births; 245 single and19 double transfers; operational definition not reported,PDF pp4-5 Table1/Results; negative finding across complete main text
+43,Ortiz 2026,D4,high,"To prepare the data for modelling, class balancing was applied to the target variables.","PDF p3 Data preprocessing, followed by80/20split; p6 Fig1 RF matrix; p8 calibration not formally assessed"
+44,Priya 2026,Intended use,not applicable,prior to beginning their first IVF treatment,PDF p7 preprocessing rationale; p1 aim before IVF
+44,Priya 2026,D1,high,57558 completed fresh/frozen embryo-transfer records retained from760732 raw records,PDF pp6-7 dataset/preprocessing; numeric paraphrase. p7 nonstimulated versus p11 stimulated selection conflicts.
+44,Priya 2026,D2,unclear,"post-treatment egg, fertilization, embryo-transfer/storage variables removed; final predictor list not reported",PDF p7 preprocessing; negative finding across complete main text
+44,Priya 2026,D3,high,All patient records with Live-birth Occurrences greater than 1 are set to 1 and the remaining records to 0,PDF p11 Results; quotation23words; implies one-birth records coded negative as written
+44,Priya 2026,D4,high,"F1-score, precision, recall, ROC AUC scores, and curves comparing different models",PDF p11 evaluation; pp12-14 results/figures. No calibration/probability-error assessment in complete article; Fig7 scatter not calibration curve.
+45,Shao 2026,Version,not rated,46 physical pages; headers Page1of73 to Page46of73; last page ends Table4,"PDF pp1,46 and page-header inventory; ACCEPTED MANUSCRIPT watermark/DOI10.1093/hropen/hoag085"
+46,Sun 2026,Intended use,not applicable,Model1 includes2PN; Model2 relies solely on pre-ART variables,"PDF pp7,9 Model development/clinical interpretation; numeric paraphrase"
+46,Sun 2026,D1,unclear,1705=1512 OMA+193 controls; external1548=217 OMA+1331 controls before exclusions to1475,PDF pp3-5 Fig1/Study population; exact final external subgroup mix not supplied
+46,Sun 2026,D2,low,Model1 four predictors; Model2 nine pre-ART predictors,PDF p7 selection; pp3-5 measurements/timing; numeric paraphrase
+46,Sun 2026,D3,low,at least28weeks; first ART cycle; all available embryos or up to3blastocysts within1year,PDF p4 outcome definition; numeric paraphrase.810/1705 development live births in Results/table.
+46,Sun 2026,D4,unclear,1194 training;511 test; training-only LASSO and imbalance correction; Brier scores reported,"PDF pp5,7 methods; p9 Tables3-4; missing S1-S3 and TablesS1-S3 limit verification; numeric paraphrase"
+47,Zhang A 2026,Intended use,not applicable,initial-presentation counselling and subsequent-cycle planning; includes usable embryos and high-quality blastocysts,"PDF pp7-8,23-24,27-28,32; paraphrase of mixed timing claims"
+47,Zhang A 2026,D1,high,"1824-405=1419 cycles; exclusions9+51+151+194, including194 no-live-birth cycles with surplus embryos",PDF p35 Fig1; pp6-7 eligibility. Exact counts; outcome-dependent selection.
+47,Zhang A 2026,D2,unclear,usable embryos; high-quality blastocysts; eight predictors,PDF pp7-8 measurement/embryo standards; pp23-24 initial timing and pp27-28 later planning claims; numeric paraphrase
+47,Zhang A 2026,D3,low,development1037/514 live births; temporal382/196; first live birth or exhaustion of all embryos,PDF p8 cumulative outcome; pp13-14 Table1; p6 follow-up throughDecember2025; numeric paraphrase
+47,Zhang A 2026,D4,unclear,fivefoldCV; temporal2023; ABscore combines discrimination/calibration from both cohorts,"PDF pp8-10 methods; pp16,18 AUC/Brier; AppendixA/SI absent, patient grouping/nesting unresolved; paraphrase"
+48,Zhao 2026,Intended use,not applicable,pre-transfer assessment scheme for live-birth probability,PDF p11 Conclusion; pp2-3 timing/variables
+48,Zhao 2026,D1,unclear,"990overall,576first-transfer,238second-retained;237without prior birth and1with prior birth",PDF p2 cohort construction; p3 Fig1. Missing/nonadjudicable outcome exclusions unquantified.
+48,Zhao 2026,D2,low,Interval Days denotes the number of days between the first and second transfer dates.,PDF p3 variable definitions; CycleNo retrieval ordinal and nominal coding explained; pp7-9 final predictor lists
+48,Zhao 2026,D3,unclear,live-birth label; operational clinical definition and cohort birth counts not reported,PDF pp2-4 outcome/cohorts/Table1; negative finding across complete12-page main text
+48,Zhao 2026,D4,high,the operating threshold was selected within each validation fold using Youden’s Index derived from the ROC curve,"PDF p4 evaluation; next clause summarizes threshold-optimized metrics across same folds; pp7,10 final-test-split calibration distinguished from OOF"

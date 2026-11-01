@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Machine learning for live-birth prediction after IVF/ICSI from structured clinical data: data and code for a systematic review and meta-analysis"
+authors:
+  - family-names: Shahzad
+    given-names: Abdul Raheem
+    affiliation: "School of Computer Science, Wuhan University"
+    email: 2024272110002@whu.edu.cn
+date-released: 2026-11-01
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/abdul-raheem-shahzad/ml-ivf-live-birth-review"
+keywords: [in vitro fertilisation, live birth, machine learning, clinical prediction model, meta-analysis, systematic review, PROBAST+AI]

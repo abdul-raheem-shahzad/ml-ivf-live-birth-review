@@ -1,0 +1,99 @@
+SECOND ASSESSOR LOG - PROBAST+AI appraisal of 48 studies (AI-generated: Claude, Anthropic; 29 Oct 2026)
+These ratings were produced by an AI model, not an independent human assessor. A human must verify them; do not report agreement as human inter-rater kappa/AC1 unless disclosed as AI-assisted.
+Source: 48 PDFs in all_48_by_excel_ID (supplied as a folder, not a zip). No supplements, no review manuscript, no web search.
+
+FILE-MATCHING TABLE (DOI searched in the full PDF text)
+ID | study | file name | DOI found in the PDF | match OK
+1 | Banerjee 2010 | 01 Banerjee 2010.pdf | 10.1073/pnas.1002296107 | yes
+2 | Qiu 2019 | 02 Qiu 2019.pdf | 10.1186/s12967-019-2062-5 | yes
+3 | Brás de Guimarães 2020 | 03 Bras de Guimarães 2020.pdf | 10.3390/reprodmed1030014 | yes
+4 | Goyal 2020 | 04 Goyal 2020.pdf | 10.1038/s41598-020-76928-z | yes
+5 | Amini 2021 | 05 Amini 2021.pdf | 10.22074/ijfs.2020.134582 | yes
+6 | Liang 2021 | 06 Liang 2021.pdf | 10.1016/j.cmpb.2020.105780 | yes
+7 | Benchaib 2022 | 07 Benchaib 2022.pdf | 10.1002/rmb2.12486 | yes
+8 | Chen Z 2022 | 08 Chen Z 2022.pdf | 10.1097/CM9.0000000000001874 | yes
+9 | Zhang 2022 | 09 Zhang 2022.pdf | 10.3389/fendo.2022.838087 | yes
+10 | Liu X 2023 | 10 Liu X 2023.pdf | 10.1186/s12884-023-05775-3 | yes
+11 | Mourad 2023 | 11 Mourad 2023.pdf | 10.1016/j.fertnstert.2023.11.035 | yes
+12 | Cai 2024 | 12 Cai 2024.pdf | 10.1093/humrep/dead242 | yes
+13 | Liu L 2024a | 13 Liu L 2024a.pdf | 10.1186/s12958-024-01253-3 | yes
+14 | Liu L 2024b | 14 Liu L 2024b.pdf | 10.1186/s12958-024-01295-7 | yes
+15 | Liu Z 2024 | 15 Liu Z 2024.pdf | 10.1007/s10815-023-02997-4 | yes
+16 | Peng 2024 | 16 Peng 2024.pdf | 10.1038/s41598-024-83781-x | yes
+17 | Abdala 2025 | 17 Abdala 2025.pdf | 10.1007/s10815-025-03524-3 | yes
+18 | Bai 2025 | 18 Bai 2025.pdf | 10.1186/s12884-025-07433-2 | yes
+19 | Borji 2025 | 19 Borji 2025.pdf | not found in PDF (no DOI printed) | NO - wrong version (author preprint)
+20 | Cumberbatch 2025 | 20 Cumberbatch 2025.pdf | 10.54808/JSCI.23.06.20 | yes
+21 | Jain 2025 | 21 Jain 2025.pdf | 10.31449/inf.v46i7.8521 | yes
+22 | Lantzi 2025 | 22 Lantzi 2025.pdf | 10.3390/biology14050556 | yes
+23 | Liu Y 2025 | 23 Liu Y 2025.pdf | 10.3389/fendo.2025.1556681 | yes
+24 | Sengupta 2025 | 24 Sengupta 2025.pdf | 10.18203/2394-6040.ijcmph20251387 | yes
+25 | Wu 2025 | 25 Wu 2025.pdf | 10.1186/s12967-025-07045-6 | yes
+26 | Xing 2025 | 26 Xing 2025.pdf | 10.3760/cma.j.cn101441-20241213-00471 | yes
+27 | Yao 2025 | 27 Yao 2025.pdf | 10.1038/s41467-025-58744-z | yes
+28 | Zhu 2025a | 28 Zhu 2025a.pdf | 10.1186/s13048-025-01654-x | yes
+29 | Zhu 2025b | 29 Zhu 2025b.pdf | 10.1007/s10815-025-03677-1 | yes
+30 | Alson 2026 | 30 Alson 2026.pdf | 10.1038/s41598-025-31013-1 | yes
+31 | Bai J 2026 | 31 Bai J 2026.pdf | 10.3760/cma.j.cn101441-20251012-00398 | yes
+32 | Chen 2026 | 32 Chen 2026.pdf | 10.3389/fendo.2026.1967517 | yes
+33 | Fatmawati 2026 | 33 Fatmawati 2026.pdf | 10.59345/sjog.v3i2.282 | yes
+34 | Fraire-Zamora 2026 | 34 Fraire-Zamora 2026.pdf | 10.1007/s10815-026-03869-3 | yes
+35 | Fu 2026 | 35 Fu 2026.pdf | 10.3389/fendo.2026.1949824 | yes
+36 | Guo 2026 | 36 Guo 2026.pdf | 10.3389/fendo.2026.1916182 | yes
+37 | Lin 2026 | 37 Lin 2026.pdf | 10.3389/fendo.2026.1898690 | yes
+38 | Liu B 2026 | 38 Liu B 2026.pdf | 10.3389/fcell.2026.1742816 | yes
+39 | Liu L 2026 | 39 Liu L 2026.pdf | 10.3389/fendo.2026.1832301 | yes
+40 | Luo 2026 | 40 Luo 2026.pdf | 10.1186/s12884-026-09610-3 | yes
+41 | Minano Masip 2026 | 41 Minano Masip 2026.pdf | 10.3390/medicina62020364 | yes
+42 | Nowak 2026 | 42 Nowak 2026.pdf | 10.5935/1518-0557.20260073 | yes
+43 | Ortiz 2026 | 43 Ortiz 2026.pdf | 10.1007/s10815-026-03928-9 | yes
+44 | Priya 2026 | 44 Priya 2026.pdf | 10.22059/jitm.2026.107166 | yes
+45 | Shao 2026 | 45 Shao 2026.pdf | 10.1093/hropen/hoag085 | yes
+46 | Sun 2026 | 46 Sun 2026.pdf | 10.2147/CLEP.S588848 | yes
+47 | Zhang A 2026 | 47 Zhang A 2026.pdf | 10.1186/s13048-026-02251-2 | yes
+48 | Zhao 2026 | 48 Zhao 2026.pdf | 10.3389/fendo.2026.1868575 | yes
+Studies with no file: none. Files matching no study: none. Wrong version: Borji 2025 (author preprint instead of published CMPB version). PDFs with no extractable text: none fully; 26 and 31 have only partial (English/number) text layers.
+
+UNREADABLE / PARTLY READABLE PARTS PER STUDY
+19 Borji 2025: Wrong version: the PDF is the author manuscript (Word-generated, 27 Dec 2024, no journal header/DOI), not the published CMPB article. Not rated; no extraction.
+26 Xing 2025: Chinese article: the text layer contains only the English abstract, numbers and references; the Chinese text, Fig. 1 and Table 2 were read from page images.
+31 Bai J 2026: Chinese article: as for 26; Methods, Fig. 1, Table 2 and Discussion read from page images.
+22 Lantzi 2025: Text layer of Tables 8-10 and Figs 9-10 is garbled (overlapping text); values read where legible (holdout AUC 0.6732 / 0.7466). DataRobot leaderboard models other than the selected ones not extractable.
+2 Qiu 2019: LR and SVM AUCs shown only in Fig. 2a (image); not given in text and not extracted.
+9 Zhang 2022: AUCs of the 12 models other than the top three in each group are shown only in Figs 3-4 (image); not extracted.
+10 Liu X 2023: Table 2 layout splits CIs across lines; post-cycle LR validation/test rows ambiguous in the text layer. Flowchart Fig. 1 viewed as an image.
+15 Liu Z 2024: Table 3 columns misaligned in text layer; LASSO/GLM AUCs taken from the abstract.
+7 Benchaib 2022: Table 3 CI for Simple RNN split across lines.
+4 Goyal 2020: Table 4 model order assumed to match Tables 2-3 (same layout).
+23 Liu Y 2025: Table 1 AUCs for decision tree, naive Bayes and feed-forward NN not cleanly readable in text layer.
+24 Sengupta 2025: Table 2 column (model) labels not recoverable from the text layer for four columns.
+37 Lin 2026: XGBoost AUC truncated in the text layer (Results p.4).
+28 Zhu 2025a: Flowchart Fig. 1 (exclusion numbers) viewed as an image.
+29 Zhu 2025b: Flowchart Fig. 1 viewed as an image.
+47 Zhang A 2026: Flowchart Fig. 1 (journal-style page 35) viewed as an image; preprint-style watermark letters interleave the text layer.
+All: Supplementary files were not part of the supplied PDFs for any study. Supplements that matter for a judgement: Banerjee SI (exclusions), Mourad Supp Fig 1 (ML AUCs), Cai Supp Table S1/S4, Liu Z Supp Table S3, Wu Supp Fig S2, Chen 2026 Supp Fig 1 / Table 1, Shao Supp Fig S1, Alson Supp Fig S1.
+All: PDF font extraction renders some symbols as Latin letters (e.g. "b-hCG" = beta-hCG, "R 24 weeks" = >=24 weeks in Mourad 2023); en-dashes between numbers are written as "-" in quotations.
+
+DECISION RULES APPLIED (same for all rated studies)
+Pre-agreed: not reported -> unclear (unless the omission is itself a flaw); overall = low only if all four low, high if any high, otherwise unclear.
+Calibration choice (prompt Step 1, D4): calibration not assessed at all -> D4 HIGH. A calibration plot, slope/intercept, Hosmer-Lemeshow, binned lift chart or a Brier score counts as an assessment (Brier accepted per this protocol). Calibration described in Methods but no result reported = not assessed.
+  RULE CHANGE (declared): the first pass did not accept a Brier score alone. Re-applied to all 48: affected studies were Peng 2024 (unchanged, D4 high for univariable selection), Chen 2026 (unchanged, univariable selection) and Sun 2026 (D4 high -> unclear; overall high -> unclear). All other calibration judgements were unaffected.
+D1: model for use before treatment developed only on cycles reaching embryo transfer (or only clinical pregnancies) -> high; unjustified exclusion >10% for missing data / loss to follow-up, or exclusions made but not quantified -> unclear.
+D2: any predictor not available at the intended decision point (embryos transferred in a pre-treatment model, post-transfer hCG, outcome-dependent totals) -> high; predictor list not reported -> unclear.
+D3: live birth defined (threshold, numerator, denominator) -> low; only named -> unclear; composite outcome (live birth + ongoing pregnancy) or sample conditioned on clinical pregnancy -> high; CLBR with remaining frozen embryos counted as failures or follow-up/censoring not described -> unclear.
+D4 high triggers: no calibration; apparent performance only; imputation/scaling/feature selection/rebalancing fitted before the split or outside CV; evaluation on rebalanced or synthetic data; predictor selection by univariable significance (PROBAST 4.5); test data used to choose the model or the split; only hold-out/external set with clearly <100 events and no resampling validation. D4 unclear: contradictory or missing description of these steps, complete-case exclusion >10% without justification, patient-level independence not addressed.
+Several models in one study (stage-specific, pre/post-treatment, cohort-specific): each domain rated at the worse model; intended use recorded for the first-listed model; the implied decision point of later models is given in the 'Intended use' column.
+Intended use: 'as presented' = the authors' stated decision point ('not stated' if none); 'implied by predictors' added when the latest-timed predictor implies a different point.
+Wrong/missing file: not rated (Borji 2025).
+Extraction scope: every live-birth AUC reported for an evaluation set (test, validation, cross-validation, bootstrap, temporal, external) for each model in the main text and tables; training/apparent AUCs included only when they are the only estimate or the authors' headline number. Subgroup AUCs and non-live-birth outcomes (clinical pregnancy) excluded. Event counts are given only when stated in the article; derived counts are marked 'not reported'.
+Evidence file: text in double quotes is verbatim from the PDF text layer (<=24 words; whitespace normalised); rows marked [number/summary, not a quotation] give an exact number or a summary, used where the source is an image (Chinese papers, figures) or where the evidence is an absence ('Not reported ... location not found').
+
+COUNTS (48 studies)
+Overall: 43 high / 3 unclear / 1 low / 1 not rated
+D1: 8 high / 23 unclear / 16 low / 1 not rated
+D2: 10 high / 1 unclear / 36 low / 1 not rated
+D3: 3 high / 20 unclear / 24 low / 1 not rated
+D4: 41 high / 3 unclear / 3 low / 1 not rated
+All 48 rows present in second_assessor_ratings.csv (47 rated, 1 not rated: Borji 2025 - wrong file version).
+
+INDEPENDENCE CAVEAT: when the workbook structure was first inspected, rows 2-16 of the Extraction_Check sheet (first rater's extracted AUC/n/events for Banerjee 2010 to Liu X 2023) were briefly displayed. No first-rater risk-of-bias ratings were seen. The AUC extraction in second_assessor_extraction.csv was made from the PDFs.

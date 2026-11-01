@@ -1,0 +1,247 @@
+{
+ "stats": {
+  "Participants": {
+   "author_vs_A": {
+    "n": 46,
+    "agreement": 0.35,
+    "kappa": 0.1,
+    "ac1": 0.07
+   },
+   "author_vs_B": {
+    "n": 47,
+    "agreement": 0.51,
+    "kappa": 0.23,
+    "ac1": 0.31
+   },
+   "A_vs_B": {
+    "n": 46,
+    "agreement": 0.72,
+    "kappa": 0.52,
+    "ac1": 0.6
+   },
+   "final_vs_A": {
+    "n": 46,
+    "agreement": 0.76,
+    "kappa": 0.6,
+    "ac1": 0.66
+   },
+   "final_vs_B": {
+    "n": 47,
+    "agreement": 0.94,
+    "kappa": 0.9,
+    "ac1": 0.91
+   }
+  },
+  "Predictors": {
+   "author_vs_A": {
+    "n": 46,
+    "agreement": 0.54,
+    "kappa": 0.26,
+    "ac1": 0.36
+   },
+   "author_vs_B": {
+    "n": 47,
+    "agreement": 0.72,
+    "kappa": 0.36,
+    "ac1": 0.65
+   },
+   "A_vs_B": {
+    "n": 46,
+    "agreement": 0.54,
+    "kappa": 0.3,
+    "ac1": 0.36
+   },
+   "final_vs_A": {
+    "n": 46,
+    "agreement": 0.65,
+    "kappa": 0.44,
+    "ac1": 0.51
+   },
+   "final_vs_B": {
+    "n": 47,
+    "agreement": 0.83,
+    "kappa": 0.59,
+    "ac1": 0.79
+   }
+  },
+  "Outcome": {
+   "author_vs_A": {
+    "n": 46,
+    "agreement": 0.65,
+    "kappa": 0.36,
+    "ac1": 0.53
+   },
+   "author_vs_B": {
+    "n": 47,
+    "agreement": 0.7,
+    "kappa": 0.42,
+    "ac1": 0.61
+   },
+   "A_vs_B": {
+    "n": 46,
+    "agreement": 0.8,
+    "kappa": 0.66,
+    "ac1": 0.72
+   },
+   "final_vs_A": {
+    "n": 46,
+    "agreement": 0.87,
+    "kappa": 0.77,
+    "ac1": 0.82
+   },
+   "final_vs_B": {
+    "n": 47,
+    "agreement": 0.91,
+    "kappa": 0.84,
+    "ac1": 0.88
+   }
+  },
+  "Analysis": {
+   "author_vs_A": {
+    "n": 46,
+    "agreement": 0.65,
+    "kappa": 0.32,
+    "ac1": 0.53
+   },
+   "author_vs_B": {
+    "n": 47,
+    "agreement": 0.68,
+    "kappa": 0.21,
+    "ac1": 0.61
+   },
+   "A_vs_B": {
+    "n": 46,
+    "agreement": 0.63,
+    "kappa": 0.21,
+    "ac1": 0.53
+   },
+   "final_vs_A": {
+    "n": 46,
+    "agreement": 0.76,
+    "kappa": 0.52,
+    "ac1": 0.69
+   },
+   "final_vs_B": {
+    "n": 47,
+    "agreement": 0.83,
+    "kappa": 0.46,
+    "ac1": 0.8
+   }
+  },
+  "Overall": {
+   "author_vs_A": {
+    "n": 46,
+    "agreement": 0.59,
+    "kappa": 0.09,
+    "ac1": 0.47
+   },
+   "author_vs_B": {
+    "n": 47,
+    "agreement": 0.68,
+    "kappa": 0.11,
+    "ac1": 0.62
+   },
+   "A_vs_B": {
+    "n": 46,
+    "agreement": 0.74,
+    "kappa": 0.25,
+    "ac1": 0.69
+   },
+   "final_vs_A": {
+    "n": 46,
+    "agreement": 0.83,
+    "kappa": 0.54,
+    "ac1": 0.79
+   },
+   "final_vs_B": {
+    "n": 47,
+    "agreement": 0.87,
+    "kappa": 0.45,
+    "ac1": 0.86
+   }
+  },
+  "All four domains": {
+   "author_vs_A": {
+    "n": 184,
+    "agreement": 0.55,
+    "kappa": 0.34,
+    "ac1": 0.33
+   },
+   "author_vs_B": {
+    "n": 188,
+    "agreement": 0.65,
+    "kappa": 0.46,
+    "ac1": 0.5
+   },
+   "A_vs_B": {
+    "n": 184,
+    "agreement": 0.67,
+    "kappa": 0.52,
+    "ac1": 0.51
+   },
+   "final_vs_A": {
+    "n": 184,
+    "agreement": 0.76,
+    "kappa": 0.65,
+    "ac1": 0.64
+   },
+   "final_vs_B": {
+    "n": 188,
+    "agreement": 0.88,
+    "kappa": 0.81,
+    "ac1": 0.82
+   }
+  }
+ },
+ "overall_distribution": {
+  "au": {
+   "low": 4,
+   "unclear": 11,
+   "high": 33,
+   "not rated": 0
+  },
+  "A": {
+   "low": 0,
+   "unclear": 15,
+   "high": 31,
+   "not rated": 2
+  },
+  "B": {
+   "low": 1,
+   "unclear": 3,
+   "high": 43,
+   "not rated": 1
+  },
+  "fin": {
+   "low": 1,
+   "unclear": 7,
+   "high": 40,
+   "not rated": 0
+  }
+ },
+ "changed_domain_judgements": 42,
+ "changed_overall": 11,
+ "changed_overall_upward": 10,
+ "changed_overall_keys": [
+  "qiu2019",
+  "peng2024",
+  "yao2025",
+  "guo2026",
+  "fu2026",
+  "zhao2026",
+  "cheny2026",
+  "wu2025jtm",
+  "zhanga2026",
+  "fatmawati2026",
+  "lantzi2025"
+ ],
+ "not_rated": {
+  "A": [
+   "Borji 2025",
+   "Shao 2026"
+  ],
+  "B": [
+   "Borji 2025"
+  ]
+ }
+}

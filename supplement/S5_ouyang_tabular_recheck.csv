@@ -1,0 +1,18 @@
+First author (as tabulated by Ouyang & Wei),Year,Sample size,AUC as tabulated,AUC used here,Note
+Liu,2021,401,0.613,0.613,
+Mehta,2024,333,1.0,1.0,
+Dehghan,2024,812,0.91,0.91,
+Mohammad,2025,10036,0.9212,0.9212,
+Sergeev,2024,8732,0.798,0.798,
+Gong,2023,657,0.879,0.879,
+Zhu,2024,969,0.765,0.765,
+Wu,2024,15779,0.716,0.716,
+Cao,2024,2865,0.87,0.89,corrected against original article
+Ouyang,2025,4046,0.713,0.713,
+Borji,2024,665244,0.9996,0.9996,
+Liu,2025,48514,0.8899,0.8899,
+Cordeiro,2025,183,0.9965,0.9965,
+Gao,2021,13826,0.743,0.743,
+Goyal,2020,495630,0.864,0.846,corrected against original article
+Liu,2023,1857,0.634,0.634,
+Wen,2022,949,0.787,0.787,

@@ -1,0 +1,49 @@
+Study,Journal,Setting,Model family,Selected model,Decision point,Validation,AUC,Risk of bias,DOI
+Banerjee 2010,PNAS,"USA, 1 centre; 2003–2008",Boosted trees,GBM boosted trees,Before transfer,External,0.800,Unclear,10.1073/pnas.1002296107
+Qiu 2019,Journal of Translational Medicine,"China, 1 centre",Boosted trees,XGBoost,Before treatment,Internal,0.730,Unclear,10.1186/s12967-019-2062-5
+Brás de Guimarães 2020,Reproductive Medicine,"Portugal, 1 centre; 2012–2019",Neural networks,ANN,Before transfer,Internal,0.752,High,10.3390/reprodmed1030014
+Goyal 2020,Scientific Reports,"UK, HFEA register",Bagged trees,RF,Not stated,Internal,0.846,High,10.1038/s41598-020-76928-z
+Amini 2021,International Journal of Fertility and Sterility,"Iran, 1 centre; 2011–2014",Bagged trees,RF,After pregnancy test,Internal,0.600,High,10.22074/ijfs.2020.134582
+Liang 2021,Computer Methods and Programs in Biomedicine,"China, 1 centre; 2012–2015",Bagged trees,"Random forest, 100 trees, with genetic-algorithm search over modifiable factors",Before transfer,Internal,0.830,High,10.1016/j.cmpb.2020.105780
+Benchaib 2022,Reproductive Medicine and Biology,"France, 1 centre; 2013–2018",Neural networks,MLP,Before transfer,Internal,0.866,High,10.1002/rmb2.12486
+Chen Z 2022,Chinese Medical Journal,"China, 1 centre; 2014–2018",Boosted trees,XGBoost,After stimulation,Internal,0.901,High,10.1097/CM9.0000000000001874
+Zhang 2022,Frontiers in Endocrinology,"UK, HFEA register; 2005–2016",Neural networks,ANN,Before treatment,Internal,0.794,High,10.3389/fendo.2022.838087
+Liu X 2023,BMC Pregnancy and Childbirth,"China, 1 centre; 2019–2021",Boosted trees,LightGBM,Before treatment,External,0.634,High,10.1186/s12884-023-05775-3
+Mourad 2023,Fertility and Sterility,"Canada, 2 centres; 2012–2016",Regression,LR selected,After pregnancy test,Internal,0.780,High,10.1016/j.fertnstert.2023.11.035
+Cai 2024,Human Reproduction,"China, 1 centre; 2013–2020",Regression,Lasso selected,Before treatment,Internal,0.710,Unclear,10.1093/humrep/dead242
+Liu L 2024a,Reproductive Biology and Endocrinology,"China, 1 centre",Kernel methods,SVM,Before transfer,External,0.862,High,10.1186/s12958-024-01253-3
+Liu L 2024b,Reproductive Biology and Endocrinology,"China, 2 centres; 2016–2022",Ensembles,Stacking,Before transfer,Internal,0.791,High,10.1186/s12958-024-01295-7
+Liu Z 2024,Journal of Assisted Reproduction and Genetics,"China, 1 centre; 2013–2019",Boosted trees,XGBoost with cycle features and day-3 morphology,Before transfer,Internal,0.830,High,10.1007/s10815-023-02997-4
+Peng 2024,Scientific Reports,"China, 1 centre; 2015–2022",Regression,LR selected,After stimulation,Internal,0.671,High,10.1038/s41598-024-83781-x
+Abdala 2025,Journal of Assisted Reproduction and Genetics,"UAE, 1 centre; 2017–2023",Regression,LR selected,Before transfer,Internal,0.626,High,10.1007/s10815-025-03524-3
+Bai 2025,BMC Pregnancy and Childbirth,"China, 1 centre; 2016–2022",Boosted trees,LightGBM,After pregnancy test,Internal,0.746,High,10.1186/s12884-025-07433-2
+Borji 2025,Computer Methods and Programs in Biomedicine,"UK, HFEA register; 2010–2018",Neural networks,PSO + TabTransformer,Not stated,External,0.972,High,10.1016/j.cmpb.2025.108979
+Cumberbatch 2025,"Journal of Systemics, Cybernetics and Informatics","Barbados, 1 centre",Kernel methods,Linear SVM,Before transfer,Internal,0.720,High,10.54808/JSCI.23.06.20
+Jain 2025,Informatica,"UK, HFEA register; 2010–2016",Ensembles,"Stacking with XGBoost meta-learner over RF, MLP, SVM",Not stated,Internal,0.999,High,10.31449/inf.v46i7.8521
+Lantzi 2025,Biology,"UK, HFEA register (source not named in the text); 2010–2018",Boosted trees,DataRobot autopilot; XGBoost with early stopping and a Keras residual network chosen,Before treatment,Internal,0.673,Unclear,10.3390/biology14050556
+Liu Y 2025,Frontiers in Endocrinology,"China, 1 centre",Bagged trees,RF,Not stated,Internal,0.973,High,10.3389/fendo.2025.1556681
+Sengupta 2025,International Journal of Community Medicine and Public Health,"India, 1 centre; 2018–2022",Ensembles,Bayesian-optimised voting ensemble,After pregnancy test,Internal,0.930,High,10.18203/2394-6040.ijcmph20251387
+Wu 2025,Journal of Translational Medicine,"China, 1 centre; 2016–2023",Bagged trees,RF,Before transfer,Internal,0.807,High,10.1186/s12967-025-07045-6
+Xing 2025,Chinese Journal of Reproduction and Contraception (in Chinese),"China, 1 centre; 2017–2022",Boosted trees,XGBoost,Before treatment,Internal,0.775,High,10.3760/cma.j.cn101441-20241213-00471
+Yao 2025,Nature Communications,"USA, 6 centres",Centre-specific,Centre-specific ML,Before treatment,Internal,n.r.,High,10.1038/s41467-025-58744-z
+Zhu 2025a,Journal of Ovarian Research,"China, 1 centre; 2019–2023",Boosted trees,XGBoost,Before transfer,Internal,0.822,High,10.1186/s13048-025-01654-x
+Zhu 2025b,Journal of Assisted Reproduction and Genetics,"China, 1 centre; 2018–2023",Boosted trees,XGBoost,Before transfer,Internal,0.852,Unclear,10.1007/s10815-025-03677-1
+Alson 2026,Scientific Reports,"Sweden, 1 centre; 2019–2022",Boosted trees,XGBoost,Before treatment,Internal,0.660,High,10.1038/s41598-025-31013-1
+Bai J 2026,Chinese Journal of Reproduction and Contraception (in Chinese),"China, 1 centre; 2021–2024",Regression,Logistic regression selected,Before transfer,Internal,0.745,High,10.3760/cma.j.cn101441-20251012-00398
+Chen 2026,Frontiers in Endocrinology,"China, 1 centre; 2015–2023",Regression,LR selected,Not stated,Internal,0.782,High,10.3389/fendo.2026.1967517
+Fatmawati 2026,Sriwijaya Journal of Obstetrics and Gynecology,"Indonesia, 2 centres; 2018–2023",Boosted trees,XGBoost,Before transfer,Internal,0.820,Unclear,10.59345/sjog.v3i2.282
+Fraire-Zamora 2026,Journal of Assisted Reproduction and Genetics,"Spain, multicentre; 2011–2023",Boosted trees,GBM,Not stated,Internal,0.895,High,10.1007/s10815-026-03869-3
+Fu 2026,Frontiers in Endocrinology,"China, 1 centre; 2019–2024",Boosted trees,GBM,Before transfer,External,0.712,High,10.3389/fendo.2026.1949824
+Guo 2026,Frontiers in Endocrinology,"China, 2 centres",Ensembles,Ensembles of 10 base learners,Before transfer,External,0.719,High,10.3389/fendo.2026.1916182
+Lin 2026,Frontiers in Endocrinology,"China, 1 centre; 2019–2025",Bagged trees,RF,After pregnancy test,Internal,0.917,High,10.3389/fendo.2026.1898690
+Liu B 2026,Frontiers in Cell and Developmental Biology,"China, 1 centre; 2020–2024",Boosted trees,XGBoost,Not stated,Internal,0.830,High,10.3389/fcell.2026.1742816
+Liu L 2026,Frontiers in Endocrinology,"China, 1 centre; 2019–2024",Boosted trees,CatBoost,Before treatment,Internal,0.759,High,10.3389/fendo.2026.1832301
+Luo 2026,BMC Pregnancy and Childbirth,"China, 1 centre; 2021–2024",Boosted trees,XGBoost,Not stated,External,0.809,Unclear,10.1186/s12884-026-09610-3
+Minano Masip 2026,Medicina,"Canada, 1 centre; 2012–2019",Kernel methods,SVM on clinical data,Before transfer,Internal,0.650,High,10.3390/medicina62020364
+Nowak 2026,JBRA Assisted Reproduction,"Poland, 1 centre; 2013–2022",Boosted trees,XGBoost,Before transfer,Internal,0.927,High,10.5935/1518-0557.20260073
+Ortiz 2026,Journal of Assisted Reproduction and Genetics,"Spain, multicentre; 2017–2023",Bagged trees,RF,Before transfer,Internal,0.781,High,10.1007/s10815-026-03928-9
+Priya 2026,Journal of Information Technology Management,"UK, HFEA register; 2005–2016",Ensembles,Ensemble of random forest and gradient boosting,Not stated,Internal,0.890,High,10.22059/jitm.2026.107166
+Shao 2026,Human Reproduction Open,"Belgium, 1 centre; 2014–2023",Discrete-time survival,BART,Before treatment,External,0.690,Low,10.1093/hropen/hoag085
+Sun 2026,Clinical Epidemiology,"China, 2 centres; 2017–2023",Boosted trees,XGBoost,Before treatment,External,0.690,High,10.2147/CLEP.S588848
+Zhang A 2026,Journal of Ovarian Research,"China, 1 centre; 2019–2023",Boosted trees,GBM,Before transfer,External,0.851,High,10.1186/s13048-026-02251-2
+Zhao 2026,Frontiers in Endocrinology,"China, 1 centre; 2021–2025",Boosted trees,CatBoost,Before transfer,Internal,0.704,High,10.3389/fendo.2026.1868575

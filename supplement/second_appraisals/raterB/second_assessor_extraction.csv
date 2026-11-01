@@ -1,0 +1,161 @@
+﻿ID,Study,Model,Selected by authors (yes/no),Validation type,AUC,95% CI,Evaluation set n,Live births in evaluation set,LR AUC same data,Location
+1,Banerjee 2010,IVFBT boosted tree (first cycle C1),yes,temporal,0.80,not reported,634,not reported,not reported,Results p.4; Fig. 3E (external validation set 2007-2008)
+1,Banerjee 2010,AgeT age-only control (C1),no,temporal,0.68,not reported,634,not reported,not reported,Results p.4; Fig. 3E
+1,Banerjee 2010,IVFBT-C2 boosted tree (after failed C1),yes,temporal,0.68,not reported,230,not reported,not reported,Results p.4; Fig. 3F
+1,Banerjee 2010,AgeT-C2 age-only control,no,temporal,0.58,not reported,230,not reported,not reported,Results p.4; Fig. 3F
+2,Qiu 2019,XGBoost,yes,random split,0.73,not reported,"not reported (30% validation of 7,188)",not reported,not reported in text (Fig. 2a image only),Abstract; Results p.5; Fig. 2a
+2,Qiu 2019,Random forest,no,random split,0.73,not reported,"not reported (30% validation of 7,188)",not reported,not reported in text (Fig. 2a image only),"Results p.5 ('slightly higher AUC of 0.73'); LR and SVM AUCs only in Fig. 2a (image, values not in text)"
+3,Brás de Guimarães 2020,ANN,yes,random split,0.752,0.725-0.775,not reported (15% hold-out of SMOTE-balanced data),not reported,not reported,Abstract; Section 3 p.7 (Fig. 3)
+3,Brás de Guimarães 2020,Decision tree,no,random split,0.749,0.723-0.775,not reported,not reported,not reported,Abstract; p.8 (Fig. 5)
+4,Goyal 2020,Random forest (no feature selection),yes,random split,0.846,not reported,"47,995 (34% validation, balanced)",not reported (classes balanced 1:1),not reported (no LR model),Table 2 p.5 (84.60%)
+4,Goyal 2020,Decision tree (no FS),no,random split,0.833,not reported,"47,995",not reported,not reported,Table 2 p.5
+4,Goyal 2020,Voting soft (no FS),no,random split,0.832,not reported,"47,995",not reported,not reported,Table 2 p.5
+4,Goyal 2020,DL classifier (no FS),no,random split,0.780,not reported,"47,995",not reported,not reported,Table 2 p.5
+4,Goyal 2020,Multi-layer perceptron (no FS),no,random split,0.779,not reported,"47,995",not reported,not reported,Table 2 p.5
+4,Goyal 2020,K nearest neighbours (no FS),no,random split,0.776,not reported,"47,995",not reported,not reported,Table 2 p.5
+4,Goyal 2020,AdaBoost (no FS),no,random split,0.774,not reported,"47,995",not reported,not reported,Table 2 p.5
+4,Goyal 2020,Voting hard (no FS),no,random split,0.731,not reported,"47,995",not reported,not reported,Table 2 p.5
+4,Goyal 2020,MLP / KNN / DT / DL / Vote-hard / Vote-soft / RF / AdaBoost (Linear SVC+SelectFromModel),no,random split,0.775 / 0.722 / 0.701 / 0.774 / 0.717 / 0.757 / 0.740 / 0.776,not reported,"47,995",not reported,not reported,Table 3 p.9
+4,Goyal 2020,MLP / KNN / DT / DL / Vote-hard / Vote-soft / RF / AdaBoost (Linear SVC+Extra Trees),no,random split,0.773 / 0.726 / 0.738 / 0.773 / 0.710 / 0.762 / 0.749 / 0.773,not reported,"47,995",not reported,not reported,Table 4 p.10 (model order assumed as in Tables 2-3)
+5,Amini 2021,Random forest,yes,random split,0.60,0.55-0.64,not reported (30% test),not reported,0.55 (0.49-0.61),Results p.4; Table 2
+5,Amini 2021,XGBoost,no,random split,0.60,0.57-0.63,not reported,not reported,0.55 (0.49-0.61),Table 2 p.4
+5,Amini 2021,SVM,no,random split,0.57,0.53-0.61,not reported,not reported,0.55 (0.49-0.61),Table 2 p.4
+5,Amini 2021,Naive Bayes,no,random split,0.53,0.47-0.58,not reported,not reported,0.55 (0.49-0.61),Table 2 p.4
+5,Amini 2021,LDA,no,random split,0.57,0.51-0.63,not reported,not reported,0.55 (0.49-0.61),Table 2 p.4
+5,Amini 2021,Logistic regression,no,random split,0.55,0.49-0.61,not reported,not reported,0.55 (0.49-0.61),Table 2 p.4
+6,Liang 2021,Random forest (DDP model),yes,cross-validation,0.83 (SD 0.02),not reported,"2,189",815,not reported,Abstract; Results p.4 (10-fold CV)
+7,Benchaib 2022,MLP (morphokinetics + ART parameters),yes,random split,0.866,0.781-0.868,294 blastocysts (196 cycles),not reported at blastocyst level (49 cycles with delivery),not reported,Table 4 p.8 (validating data group)
+7,Benchaib 2022,Simple RNN (morphokinetics + ART),no,random split,0.811,0.708-0.812,294 blastocysts,not reported,not reported,Table 4 p.8
+7,Benchaib 2022,LSTM-RNN (morphokinetics + ART),no,random split,0.861,0.768-0.865,294 blastocysts,not reported,not reported,Table 4 p.8
+7,Benchaib 2022,MLP / Simple RNN / LSTM (morphokinetics only),no,random split,0.781 / 0.791 / 0.733,0.673-0.785 / 0.680-0.794 / 0.620-0.734 (as printed),294 blastocysts,not reported,not reported,Table 3 p.6 (validating data group; Simple RNN CI layout split)
+7,Benchaib 2022,MLP / Simple RNN / LSTM (morphokinetics + ART),no,cross-validation,"0.788 / 0.766 / 0.726 (mean, SD 0.067/0.173/0.145)",not reported,testing data group (k-fold),not reported,not reported,Table 4 p.8 (testing data group)
+8,Chen Z 2022,XGBoost,yes,apparent,0.901,0.890-0.912,"not reported (development data, July 2014-March 2018)",not reported,0.724 (0.708-0.741),Fig. 1A legend p.2; Results p.2 (no split described)
+8,Chen Z 2022,Conventional logistic regression,no,apparent,0.724,0.708-0.741,not reported,not reported,0.724 (0.708-0.741),Fig. 1A legend p.2
+9,Zhang 2022,ANN (best machine-learning model),no,cross-validation,0.7939,not reported,not reported (10-fold CV on balanced subset),not reported (balanced 1:1),0.7911,Results p.6; Fig. 3
+9,Zhang 2022,Logistic regression,no,cross-validation,0.7911,not reported,not reported,not reported,0.7911,Results p.6; Fig. 3
+9,Zhang 2022,Linear discriminant,no,cross-validation,0.7910,not reported,not reported,not reported,0.7911,Results p.6; Fig. 3
+9,Zhang 2022,LogitBoost (authors' optimal model),yes,cross-validation,0.7907,not reported,not reported,not reported,0.7911,Abstract; Results p.6; Fig. 4
+9,Zhang 2022,Other two best ensemble learners,no,cross-validation,0.7839 / 0.7892,not reported,not reported,not reported,0.7911,"Results p.6; remaining models' AUCs only in Figs 3-4 (image, not extracted)"
+10,Liu X 2023,LGBM pre-cycle,yes,random split,0.612,0.553-0.670,356,not reported,0.630 (0.572-0.687),Abstract; Results p.4; Table 2
+10,Liu X 2023,RF / XGBoost pre-cycle,no,random split,0.614 / 0.598,0.555-0.672 / 0.539-0.657,356,not reported,0.630 (0.572-0.687),Results p.4
+10,Liu X 2023,LR pre-cycle,no,random split,0.630,0.572-0.687,356,not reported,0.630 (0.572-0.687),Results p.4
+10,Liu X 2023,LGBM pre-cycle,yes,temporal,0.634,0.511-0.758,78,not reported,0.645 (0.521-0.769),Abstract; Results p.4
+10,Liu X 2023,RF / XGBoost / LR pre-cycle,no,temporal,0.641 / 0.644 / 0.645,0.516-0.766 / 0.521-0.768 / 0.521-0.769,78,not reported,0.645 (0.521-0.769),Results p.4
+10,Liu X 2023,LGBM / RF / XGBoost / LR pre-cycle (bootstrap),no,other (bootstrap on total data),0.670 / 0.705 / 0.789 / 0.639,0.626-0.715 / 0.662-0.747 / 0.752-0.826 / 0.593-0.684,30% of total x200,not reported,0.639 (0.593-0.684),Results p.4
+10,Liu X 2023,LGBM pre+post-cycle,yes,random split,0.816,0.773-0.859,356,not reported,0.652 (0.527-0.777) - valid/test rows ambiguous in text layer,Abstract; Table 2 p.8-9
+10,Liu X 2023,RF / XGBoost pre+post-cycle,no,random split,0.789 / 0.806,0.742-0.836 / 0.761-0.851,356,not reported,as above,Table 2 p.8-9
+10,Liu X 2023,LGBM pre+post-cycle,yes,temporal,0.835,0.743-0.926,78,not reported,0.668 (0.612-0.724) - valid/test rows ambiguous in text layer,Abstract; Table 2 p.8-9
+10,Liu X 2023,RF / XGBoost pre+post-cycle,no,temporal,0.862 / 0.843,0.781-0.943 / 0.753-0.933,78,not reported,as above,Table 2 p.8-9
+11,Mourad 2023,POPI-Plus logistic regression,yes,random split,0.78,0.74-0.82,597,not reported,0.78 (0.74-0.82),Abstract; Results p.3
+11,Mourad 2023,Classification tree / random forest / neural network,no,random split,>=0.7 (exact values not in PDF),not reported,597,not reported,0.78 (0.74-0.82),"Results p.4 (Supplemental Fig. 1, not in PDF)"
+12,Cai 2024,Centre-specific Lasso model,yes,apparent (whole cohort),0.71,0.71-0.72,"26,382","16,675",not reported separately,Abstract; Table 1 p.4; Table 2 p.7
+12,Cai 2024,Centre-specific model with additional predictors,no,apparent (whole cohort),0.74,0.74-0.75,"26,382","16,675",not reported,Table 2 p.7 (row label truncated in text layer)
+12,Cai 2024,External models: McLernon 2016 / Luke / Dhillon / McLernon 2022,no,external,0.69 / 0.68 / 0.69 / 0.68,0.68-0.69 / 0.67-0.68 / 0.68-0.70 / 0.67-0.68,"26,382","16,675",not applicable,Table 2 p.7 (abstract gives Luke 0.67 and McLernon 2022 0.67)
+12,Cai 2024,Centre-specific XGBoost / Lasso / GLM (development vs validation),no,temporal,not in PDF,not reported,"2,296",not reported,not reported,"Results p.5 (Supplementary Table S4, not in PDF)"
+13,Liu L 2024a,SVM,yes,random split,0.854,not reported,not reported (20% test),not reported,not reported,Results p.7; Fig. 4; Table 4 (training AUC 0.912)
+13,Liu L 2024a,ANN,no,random split,0.701,not reported,not reported (test set),not reported,not reported,Results p.6; Table 3 p.7 (validation set AUC 0.719)
+13,Liu L 2024a,SVM,yes,temporal,0.862,not reported,82 (Fig. 1 legend says 81),not reported,not reported,Results p.8; Fig. 5 (application to new patients)
+14,Liu L 2024b,Stacking (19 learners),yes,random split,0.791,0.752-0.831,not reported (25% of SMOTE-balanced data),not reported (balanced),0.583 (0.534-0.630),Abstract; Table 2 p.8
+14,Liu L 2024b,Extra Trees,no,random split,0.784,0.742-0.818,not reported,not reported,0.583 (0.534-0.630),Table 2 p.8
+14,Liu L 2024b,Random forest,no,random split,0.768,0.726-0.806,not reported,not reported,0.583 (0.534-0.630),Table 2 p.8
+14,Liu L 2024b,CatBoost / Gradient Boosting / XGBoost / LightGBM,no,random split,0.768 / 0.732 / 0.730 / 0.726,0.726-0.808 / 0.688-0.775 / 0.687-0.774 / 0.685-0.765,not reported,not reported,0.583 (0.534-0.630),Table 2 p.8 (remaining learners also in Table 2)
+14,Liu L 2024b,Logistic regression,no,random split,0.583,0.534-0.630,not reported,not reported,0.583 (0.534-0.630),Table 2 p.8
+15,Liu Z 2024,XGBoost Model 1 (cycle + morphology),yes,apparent,0.83,0.822-0.839,"8,383","4,027","0.66 (LASSO/GLM Model 1, abstract)",Abstract; Table 3 p.8
+15,Liu Z 2024,XGBoost Model 2 / Model 3 / Model 4,no,apparent,0.819 / 0.627 / 0.599,0.811-0.828 / 0.616-0.639 / 0.588-0.611,"8,383","4,027",0.66 / 0.61 / 0.60 (abstract),"Table 3 p.8 (abstract rounds to 0.82, 0.63, 0.60)"
+15,Liu Z 2024,LASSO Models 1-4,no,apparent,0.66 / 0.66 / 0.61 / 0.60,see Table 3 (layout misaligned in text layer),"8,383","4,027",n/a,Abstract; Table 3 p.8
+15,Liu Z 2024,GLM Models 1-4,no,apparent,0.66 / 0.66 / 0.61 / 0.60,see Table 3,"8,383","4,027",n/a,"Abstract; Table 3 p.8 (split-sample validation only in Supp Table S3, not in PDF)"
+16,Peng 2024,Logistic regression (recommended),yes,cross-validation,0.671,0.630-0.713,"11,486","3,097",0.671 (0.630-0.713),Results p.4; Table 3 p.8 (abstract swaps LR/RF values)
+16,Peng 2024,Logistic regression,yes,other (bootstrap),0.671,0.662-0.683,"11,486","3,097",0.671 (0.662-0.683),Table 3 p.8
+16,Peng 2024,Random forest,no,cross-validation,0.674,0.627-0.720,"11,486","3,097",0.671 (0.630-0.713),"Table 3 p.8 (bootstrap 0.673, 0.653-0.705)"
+16,Peng 2024,XGBoost,no,cross-validation,0.668,0.620-0.716,"11,486","3,097",0.671 (0.630-0.713),"Table 3 p.8 (bootstrap 0.667, 0.646-0.698)"
+16,Peng 2024,LightGBM,no,cross-validation,0.662,0.611-0.713,"11,486","3,097",0.671 (0.630-0.713),"Table 3 p.8 (bootstrap 0.665, 0.614-0.728)"
+17,Abdala 2025,Logistic regression (mixed-effects),yes,cross-validation,0.626 (SD 0.018),not reported,"not reported (repeated patient-group splits of 1,979 seFET)",not reported,0.626,Results p.4; Fig. 1
+17,Abdala 2025,Random forest classifier,no,cross-validation,0.606 (SD 0.018),not reported,not reported,not reported,0.626,Results p.4
+17,Abdala 2025,SVM,no,cross-validation,0.581 (SD 0.018),not reported,not reported,not reported,0.626,Results p.4 (abstract attributes 0.581 to XGBoost)
+17,Abdala 2025,XGBoost,no,cross-validation,0.601 (SD 0.017),not reported,not reported,not reported,0.626,Results p.4 (abstract attributes 0.601 to SVM)
+18,Bai 2025,LightGBM,yes,random split,0.7457,0.6878-0.8036,not reported (test size inconsistent in text),not reported,0.6624 (0.6021-0.7227),Table 2 p.9 (abstract 0.913 is training AUC)
+18,Bai 2025,XGBoost / Random forest / Extra Trees,no,random split,0.7177 / 0.7109 / 0.6552,0.6576-0.7779 / 0.6499-0.7719 / 0.5945-0.7159,not reported,not reported,0.6624 (0.6021-0.7227),Table 2 p.9
+18,Bai 2025,SVM / MLP / KNN,no,random split,0.6615 / 0.6587 / 0.5880,0.5958-0.7273 / 0.5942-0.7231 / 0.5231-0.6529,not reported,not reported,0.6624 (0.6021-0.7227),Table 2 p.9
+18,Bai 2025,Logistic regression,no,random split,0.6624,0.6021-0.7227,not reported,not reported,0.6624 (0.6021-0.7227),Table 2 p.9
+19,Borji 2025,"NOT EXTRACTED - supplied PDF is the author preprint, not the published CMPB version",n/a,n/a,n/a,n/a,n/a,n/a,n/a,"Preprint reports PSO+TabTransformer AUC 0.99 (Table 5) / 99.96% (Abstract), 10-fold CV; not used"
+20,Cumberbatch 2025,Linear SVM,yes,random split,0.72,not reported,37,11,0.69,Abstract; Fig. 2 p.4; Tables 2-3 (stratified 20% hold-out)
+20,Cumberbatch 2025,Logistic regression,no,random split,0.69,not reported,37,11,0.69,Abstract
+20,Cumberbatch 2025,RBF SVM,no,random split,0.63,not reported,37,11,0.69,Abstract; Fig. 4 p.4
+21,Jain 2025,"Stacking (XGBoost meta-learner; RF, MLP, SVM base)",yes,random split,0.999,not reported,"not reported (20% stratified test of 2,000)",not reported,not reported,Abstract; Table 4; Section 4
+21,Jain 2025,Weighted hybrid ensemble,no,random split,0.994 (abstract) / 0.993 (text),not reported,not reported,not reported,not reported,"Abstract; Results, ROC comparison text"
+21,Jain 2025,SHAP-enhanced XGBoost,no,random split,1.0,not reported,not reported,not reported,not reported,Section 4.1 (text)
+21,Jain 2025,Cascading model,no,random split,0.548,not reported,not reported,not reported,not reported,Results (ROC comparison text)
+22,Lantzi 2025,"XGBoost with early stopping, pre-cycle features (DataRobot)",yes,random split,0.6732,not reported,"not reported (20% holdout; metric on 50,000-row sample)",not reported,not reported,Table 10 p.26 (cross-validation 0.672)
+22,Lantzi 2025,"XGBoost with early stopping, complete features (DataRobot)",yes,random split,0.7466,not reported,not reported (20% holdout),not reported,not reported,Table 8 p.20 (cross-validation 0.747); other leaderboard models not tabulated in readable text
+23,Liu Y 2025,Random forest,yes,cross-validation,0.9734 (SD 0.0012),not reported,"not reported (5-fold CV in 80% training of 48,514)",not reported,not reported (no LR model),Abstract; Table 1 p.8
+23,Liu Y 2025,CNN on pseudo-images,no,cross-validation,0.8899 (SD 0.0032),not reported,not reported,not reported,not reported,"Abstract; Table 1 p.8 (decision tree, naive Bayes and feed-forward NN AUCs in Table 1, text layer not cleanly readable)"
+24,Sengupta 2025,Bayesian-optimised voting ensemble (BoVe),yes,random split,0.93,not reported,399,not reported,not reported (column labels unclear),Abstract; Table 2 p.5
+24,Sengupta 2025,Extra trees,no,random split,0.92,not reported,399,not reported,not reported,Table 2 p.5; Discussion p.6
+24,Sengupta 2025,Random forest / LightGBM,no,random split,0.87 / 0.85,not reported,399,not reported,not reported,"Table 2 p.5 (remaining columns 0.65, 0.65, 0.78, 0.86 - model labels not recoverable from text layer)"
+25,Wu 2025,Random forest,yes,random split,"0.807 (Table 2) / 0.808 (text, 75 features)",0.791-0.826 (text),"2,345",not reported,not reported (no LR model),Results p.4; Table 2 p.8; Table 3 'Whole test data (2345)'
+25,Wu 2025,XGBoost,no,random split,0.804,not reported,"2,345",not reported,not reported,Table 2 p.8 (80% training ratio)
+25,Wu 2025,GBM / AdaBoost / LightGBM,no,random split,0.766 / 0.768 / 0.777,not reported,"2,345",not reported,not reported,Table 2 p.8 (80% training ratio; other ratios also in Table 2)
+26,Xing 2025,XGBoost,yes,random split,0.775,not reported,538,not reported,0.728,English abstract; Table 2 (journal p.362; read from page image)
+26,Xing 2025,Random forest / SVM / neural network,no,random split,0.776 / 0.762 / 0.727,not reported,538,not reported,0.728,Table 2 (journal p.362; read from page image)
+26,Xing 2025,Logistic regression,no,random split,0.728,not reported,538,not reported,0.728,Table 2 (journal p.362; read from page image)
+27,Yao 2025,"MLCS1 (centre-specific GBM), median across 6 centres",yes,cross-validation,0.66 (median),IQR 0.61-0.68,not reported per centre,not reported,not reported,"Table 2 p.3 (Age control 0.48, IQR 0.39-0.51)"
+27,Yao 2025,"MLCS2 (updated), median across 6 centres",yes,cross-validation,0.67 (median),IQR 0.66-0.68,not reported per centre,not reported,not reported,"Table 2 p.3 (Age control 0.45, IQR 0.43-0.51)"
+27,Yao 2025,MLCS1 out-of-time live model validation (LMV),yes,temporal,0.65 (median),IQR 0.63-0.66,not reported,not reported,not reported,Table 2 p.3 (MLCS1 CV vs external LMV row)
+27,Yao 2025,MLCS2 CV responses vs SART model on DNMV1,yes,temporal,0.64 (median),IQR 0.62-0.66,"4,645 (6 centres)","~2,717 (58.5% labelled live birth, includes ongoing pregnancies)",SART model 0.65 (0.63-0.66),Table 4 p.4-5
+28,Zhu 2025a,XGBoost,yes,random split,0.822,0.777-0.867,"not reported (30% test of 1,062)",not reported,not reported (no LR model),Abstract; Results p.6; Table 3 p.7
+28,Zhu 2025a,DT / KNN / LightGBM / NBM / RF / SVM,no,random split,0.773 / 0.719 / 0.705 / 0.764 / 0.794 / 0.806,not reported,not reported,not reported,not reported,Abstract; Table 3 p.7
+29,Zhu 2025b,XGBoost,yes,random split,0.852,0.821-0.884,551,214,0.805,Abstract; Results p.8; Table 3
+29,Zhu 2025b,DT / KNN / LightGBM / naive Bayes / RF / SVM,no,random split,0.765 / 0.748 / 0.801 / 0.810 / 0.820 / 0.807,see Table 3,551,214,0.805,Abstract; Table 3
+29,Zhu 2025b,Logistic regression,no,random split,0.805,see Table 3,551,214,0.805,Abstract; Table 3
+30,Alson 2026,XGBoost,yes,random split,0.66,not reported,"not reported (stratified test of 1,037 women)",not reported,not reported,Abstract; Results p.4; Fig. 1 (cross-validation AUC 0.69)
+30,Alson 2026,XGBoost post-treatment variables (sensitivity analysis),no,random split,0.75,not reported,not reported,not reported,not reported,"Results p.4 (Supplemental Fig. S1, not in PDF)"
+31,Bai J 2026,Logistic regression,yes,random split,0.745,not reported,527,not reported,0.745,Abstract; Table 2 (journal p.116; read from page image)
+31,Bai J 2026,SVM / random forest / XGBoost / neural network,no,random split,0.740 / 0.739 / 0.732 / 0.725,not reported,527,not reported,0.745,Table 2 (journal p.116; read from page image)
+32,Chen 2026,Logistic regression (5 regression-derived variables),yes,cross-validation,0.782,not reported in main text,"1,782",763,0.782,"Abstract; Results p.4 (CIs in Supplementary Table 1, not in PDF)"
+32,Chen 2026,Random forest,no,cross-validation,0.729,not reported,"1,782",763,0.782,"Discussion p.7; other ML models 'around 0.75-0.77' (Results p.4), exact values in Supplementary Table 1 (not in PDF)"
+33,Fatmawati 2026,XGBoost,yes,random split,0.82,0.79-0.85,not reported (30% internal validation),not reported,0.72,Abstract; Results p.5; Table 3 p.6
+33,Fatmawati 2026,SVM / random forest / gradient boosting,no,random split,0.74 / 0.79 / 0.80,see Table 3,not reported,not reported,0.72,Table 3 p.6
+33,Fatmawati 2026,Logistic regression,no,random split,0.72,see Table 3,not reported,not reported,0.72,Abstract; Table 3 p.6
+34,Fraire-Zamora 2026,Gradient boosting (GradBoost),no,cross-validation,0.895 (SD 0.015),not reported,"8,066","3,228",0.893 (SD 0.016),Table 2 p.5 (nested CV; authors do not select one model; mean of five 0.889)
+34,Fraire-Zamora 2026,Logistic regression / SVM / random forest / ANN-MLP,no,cross-validation,0.893 / 0.884 / 0.885 / 0.890,SD 0.016 / 0.012 / 0.011 / 0.015,"8,066","3,228",0.893 (SD 0.016),Table 2 p.5
+35,Fu 2026,Gradient boosting,yes,random split,0.762,0.743-0.781,"2,332",not reported,0.737 (0.715-0.757),Abstract; Table 3 p.10
+35,Fu 2026,AdaBoost / decision tree / bagging,no,random split,0.748 / 0.744 / 0.739,0.728-0.769 / 0.723-0.763 / 0.719-0.758,"2,332",not reported,0.737 (0.715-0.757),Table 3 p.10 (Gaussian naive Bayes also in Table 3)
+35,Fu 2026,Logistic regression,no,random split,0.737,0.715-0.757,"2,332",not reported,0.737 (0.715-0.757),Table 3 p.10
+35,Fu 2026,Gradient boosting,yes,temporal,0.712,0.686-0.737,"1,607",~461 (CLBR 28.7%),not reported,Abstract; Temporal validation section
+35,Fu 2026,McLernon-style logistic regression benchmark vs full GB model,no,random split,0.691 (benchmark) vs 0.761 (GB),not reported,"2,332",not reported,0.691,Abstract; Results
+36,Guo 2026,"Stacking ensemble, Stage 1 (baseline)",yes,random split,0.678,0.649-0.708,"1,259 (locked test)",not reported,not reported,Results p.6; Table 2
+36,Guo 2026,"Ensemble, Stage 2 (stimulation)",yes,random split,0.725,0.698-0.751,"1,259",not reported,not reported,Results p.6; Table 2
+36,Guo 2026,"SES ensemble, Stage 3 (embryo development)",yes,random split,0.731,0.704-0.757,"1,259",not reported,not reported,Results p.6; Table 2
+36,Guo 2026,"SES ensemble, Stage 3",yes,external,0.719,0.696-0.741,"2,058",not reported,not reported,"Abstract; Results (second hospital, later period)"
+37,Lin 2026,Random forest,yes,random split,0.917,0.778-1.000,not reported (30% of 127),not reported,0.892 (0.722-1.000),Abstract; Results p.4 (optimism-corrected bootstrap C 0.901)
+37,Lin 2026,LR / SVM / KNN / gradient boosting / LightGBM,no,random split,0.892 / 0.892 / 0.900 / 0.892 / 0.911,0.722-1.000 / 0.722-1.000 / 0.750-1.000 / 0.742-1.000 / 0.784-1.000,not reported,not reported,0.892 (0.722-1.000),Results p.4 (XGBoost value truncated in text layer)
+38,Liu B 2026,XGBoost,yes,random split,0.830,0.719-0.941,59,not reported,not reported,Abstract; Table 3 p.8
+38,Liu B 2026,Decision tree / random forest / SVM,no,random split,0.756 / 0.712 / 0.818,0.626-0.886 / 0.573-0.851 / 0.699-0.938,59,not reported,not reported,Table 3 p.8
+39,Liu L 2026,CatBoost Stage 1 (baseline),yes,random split,0.759,0.704-0.810,371,85,not reported in main text,Abstract; Results p.5
+39,Liu L 2026,CatBoost Stage 2 (trigger day),yes,random split,0.755,0.699-0.808,371,85,not reported in main text,Abstract; Results p.5
+39,Liu L 2026,CatBoost Stage 3 (pre-transfer),yes,random split,0.793,0.739-0.840,371,85,not reported in main text,"Abstract; Results p.5 (other algorithms 0.71-0.77, abstract)"
+40,Luo 2026,XGBoost,yes,random split,0.843,not reported,"not reported (30% of 3,470)",not reported,0.818,Abstract; Table 3 p.8
+40,Luo 2026,Random forest,no,random split,0.828,not reported,not reported,not reported,0.818,Table 3 p.8
+40,Luo 2026,Logistic regression,no,random split,0.818,not reported,not reported,not reported,0.818,Table 3 p.8
+40,Luo 2026,XGBoost / RF / LR,yes (XGBoost),temporal,0.809 / 0.796 / 0.798,not reported,"1,467 (text also states 1,476)",675,0.798,Abstract; Table 4 (prospective temporal cohort)
+41,Minano Masip 2026,SVM + CNN (clinical data + six time-lapse frames),yes,random split,0.76,not reported,not reported (patient-level 15% test of 355 embryos),not reported,not reported (no LR model),Table 3 p.9 (accuracy 71.98%)
+41,Minano Masip 2026,SVM on clinical data only,no,random split,0.65,not reported,not reported,not reported,not reported,Table 3 p.9 (accuracy 67.26%)
+41,Minano Masip 2026,CNN single frame / CNN multiple frames,no,random split,0.56 / 0.67,not reported,not reported,not reported,not reported,Table 3 p.9
+42,Nowak 2026,Optimised XGBoost (after synthetic augmentation),yes,random split,0.927,not reported,not reported (20% test incl. synthetic records),not reported,not reported (baseline LR AUC not given numerically),Abstract; Results p.2; Fig. 3
+43,Ortiz 2026,Random forest,yes,random split,0.781,not reported,not reported (20% test after class balancing; 264 embryos),not reported,0.738 (GLM),Results p.5; Table 3
+43,Ortiz 2026,C5.0 / SVM-RBF / AdaBoost trees / stochastic GB,no,random split,0.769 / 0.741 / 0.714 / 0.680,not reported,not reported,not reported,0.738 (GLM),Table 3 p.5
+43,Ortiz 2026,MLP / CART / bagged CART / GLM (logistic),no,random split,0.649 / 0.637 / 0.639 / 0.738,not reported,not reported,not reported,0.738 (GLM),Table 3 p.5 (final MosaicScore is LR-derived)
+44,Priya 2026,Ensemble (random forest + gradient boosting),yes,random split,0.89 (Table 1) / 84.90 (text),not reported,not reported,not reported,not reported,Table 1 p.12; Fig. 6 text (internally inconsistent)
+44,Priya 2026,Random forest / gradient boosting,no,random split,0.78 / 0.77,not reported,not reported,not reported,not reported,Table 1 p.12 (text elsewhere gives RF 0.76)
+45,Shao 2026,"BART discrete-time survival, pre-treatment",yes,temporal,0.69 (mean over cycles),0.65-0.73,613,373,"not reported separately (comparators RF and refitted McLernon 0.68, Table 2)",Abstract; Table 2; Results p.13
+45,Shao 2026,"BART discrete-time survival, post-treatment",yes,temporal,0.82 (mean over six cycles),0.79-0.85,613,373,not reported separately,"Abstract; Table 2; Discussion (0.81, 0.78-0.85 over three cycles)"
+46,Sun 2026,XGBoost Model-1 (after retrieval),yes,random split,0.90,0.88-0.92,511,not reported,0.77 (0.74-0.80),Abstract; Results p.8; Table 3
+46,Sun 2026,LR / NN / SVM / DT / RF / LightGBM Model-1,no,random split,0.77 / 0.74 / 0.73 / 0.71 / 0.71 / 0.69,0.74-0.80 / 0.69-0.78 / 0.69-0.77 / 0.67-0.75 / 0.66-0.75 / 0.64-0.73,511,not reported,0.77 (0.74-0.80),Results p.8; Table 3
+46,Sun 2026,XGBoost Model-2 (pre-ART),yes,random split,0.88,0.86-0.89,511,not reported,0.73 (0.70-0.75),Abstract; Results; Table 4
+46,Sun 2026,RF / LR / SVM / NN / LightGBM / DT Model-2,no,random split,0.73 / 0.73 / 0.69 / 0.68 / 0.66 / 0.66,0.69-0.78 / 0.70-0.75 / 0.64-0.73 / 0.64-0.73 / 0.61-0.71 / 0.61-0.70,511,not reported,0.73 (0.70-0.75),Results; Table 4
+46,Sun 2026,XGBoost Model-1 / Model-2,yes,external,0.80 / 0.69,0.76-0.83 / 0.65-0.73,"1,475",not reported,not reported,Abstract; Results
+47,Zhang A 2026,Gradient boosting machine (GBM),yes,cross-validation,0.827,0.800-0.850,"1,037 cycles (development)",not reported (CLBR 49.57%),not reported in main text,Results p.15-16
+47,Zhang A 2026,Gradient boosting machine (GBM),yes,temporal,0.851,0.812-0.890,382 cycles,not reported (CLBR 51.31%),not reported in main text,Abstract; Results
+48,Zhao 2026,"CatBoost + T6, overall cohort",yes,cross-validation,0.704,not reported,990,not reported,0.680 (LR + T8),Abstract; Table 2 p.6
+48,Zhao 2026,"CatBoost + T6, first-transfer subgroup",yes,cross-validation,0.812,not reported,576,not reported,0.770 (LR + T10),Table 2 p.6
+48,Zhao 2026,"CatBoost + T10, second-transfer subgroup",yes,cross-validation,0.825,not reported,238,not reported,0.737 (LR + T8),Table 2 p.6

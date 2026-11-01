@@ -1,0 +1,49 @@
+Study,Key,Author original: Participants,Author original: Predictors,Author original: Outcome,Author original: Analysis,Author original: Overall,Appraisal A: Participants,Appraisal A: Predictors,Appraisal A: Outcome,Appraisal A: Analysis,Appraisal A: Overall,Appraisal B: Participants,Appraisal B: Predictors,Appraisal B: Outcome,Appraisal B: Analysis,Appraisal B: Overall,Final: Participants,Final: Predictors,Final: Outcome,Final: Analysis,Final: Overall,Adjudication
+Banerjee 2010,banerjee2010,low,low,low,unclear,unclear,unclear,unclear,low,unclear,unclear,unclear,low,low,high,high,unclear,low,low,unclear,unclear,Both raters D1 unclear
+Qiu 2019,qiu2019,low,low,low,low,low,unclear,low,low,unclear,unclear,unclear,low,unclear,low,unclear,unclear,low,low,low,unclear,Both raters: >10% excluded for missing follow-up -> unclear (pre-agreed rule)
+Goyal 2020,goyal2020,unclear,high,low,high,high,unclear,high,high,high,high,unclear,high,unclear,high,high,unclear,high,low,high,high,No change
+Zhang 2022,zhang2022,unclear,low,low,high,high,high,unclear,low,high,high,high,high,low,high,high,high,low,low,high,high,Both raters D1 high: transfer-only sample for pre-treatment use
+Liu X 2023,liux2023,low,low,low,high,high,unclear,unclear,unclear,high,high,unclear,high,low,high,high,unclear,low,low,high,high,Both raters D1 unclear
+Liu L 2024a,liu2024rbe,low,unclear,low,high,high,unclear,unclear,high,high,high,unclear,low,low,high,high,unclear,unclear,low,high,high,Both raters D1 unclear
+Liu L 2024b,liul2024,low,low,low,high,high,unclear,low,low,high,high,low,low,low,high,high,low,low,low,high,high,No change
+Peng 2024,peng2024,low,low,unclear,unclear,unclear,unclear,high,unclear,high,high,low,high,unclear,high,high,low,high,unclear,high,high,Both raters: predictors unavailable at the stated decision point; full-data selection -> high
+Zhu 2025a,zhu2025,low,low,low,high,high,low,low,low,unclear,unclear,low,low,low,high,high,low,low,low,high,high,No change
+Liu Y 2025,liuy2025,low,high,low,high,high,unclear,unclear,unclear,high,high,unclear,low,unclear,high,high,unclear,high,unclear,high,high,Both raters D1 and D3 unclear
+Yao 2025,yao2025,low,low,low,unclear,unclear,unclear,unclear,high,unclear,high,low,low,high,high,high,low,low,high,unclear,high,Both raters: composite outcome including ongoing pregnancy -> high
+Borji 2025,borji2025,unclear,high,low,high,high,not rated,not rated,not rated,not rated,not rated,not rated,not rated,not rated,not rated,not rated,unclear,high,low,high,high,No change
+Jain 2025,jain2025,unclear,unclear,low,high,high,unclear,unclear,low,high,high,unclear,unclear,unclear,high,high,unclear,unclear,low,high,high,No change
+Guo 2026,guo2026,low,low,low,low,low,high,low,low,low,high,high,low,low,low,high,high,low,low,low,high,Both raters: pre-treatment model developed on cycles reaching transfer -> high
+Fu 2026,fu2026,low,low,low,unclear,unclear,high,low,unclear,high,high,unclear,low,unclear,high,high,low,low,unclear,high,high,Both raters: test-guided configuration choice / pre-split preprocessing -> high
+Liu L 2026,liul2026,low,low,low,high,high,high,unclear,unclear,unclear,high,high,low,unclear,high,high,high,low,unclear,high,high,"Both raters D1 high, D3 unclear"
+Liu B 2026,liub2026,low,unclear,low,high,high,low,low,unclear,unclear,unclear,unclear,low,unclear,high,high,low,low,unclear,high,high,"Both raters D2 low, D3 unclear"
+Zhao 2026,zhao2026,low,low,unclear,unclear,unclear,unclear,low,unclear,high,high,unclear,low,unclear,high,high,unclear,low,unclear,high,high,Both raters: preprocessing on full data before CV -> high
+Chen 2026,cheny2026,low,unclear,low,unclear,unclear,unclear,unclear,low,high,high,unclear,low,low,high,high,unclear,unclear,low,high,high,Both raters: full-cohort predictor selection -> high
+Lin 2026,lin2026,low,high,low,high,high,unclear,low,low,high,high,unclear,low,low,high,high,unclear,low,low,high,high,"Both raters D1 unclear, D2 low (rated against the stated post-test use)"
+Wu 2025,wu2025jtm,unclear,low,unclear,unclear,unclear,unclear,unclear,unclear,high,high,unclear,low,unclear,high,high,unclear,low,unclear,high,high,Both raters: full-data imputation and feature selection -> high
+Zhu 2025b,zhu2025jarg,low,low,low,unclear,unclear,low,low,low,unclear,unclear,low,low,low,high,high,low,low,low,unclear,unclear,No change
+Zhang A 2026,zhanga2026,low,low,low,unclear,unclear,high,unclear,low,unclear,high,unclear,low,low,high,high,unclear,low,low,high,high,Both raters overall high; validation cohort used for model selection -> high (D4); D1 unclear (raters split high/unclear; >10% excluded)
+Shao 2026,shao2026,low,low,low,low,low,not rated,not rated,not rated,not rated,not rated,low,low,low,low,low,low,low,low,low,low,No change
+Sun 2026,sun2026,unclear,low,low,high,high,unclear,low,low,unclear,unclear,unclear,low,low,unclear,unclear,unclear,low,low,high,high,No change
+Mourad 2023,mourad2023,low,low,low,high,high,unclear,low,unclear,unclear,unclear,unclear,low,low,high,high,unclear,low,low,high,high,Both raters D1 unclear
+Alson 2026,alson2026,low,low,low,high,high,low,low,low,unclear,unclear,low,low,low,high,high,low,low,low,high,high,No change
+Bai 2025,bai2025,unclear,high,unclear,high,high,unclear,unclear,high,high,high,high,high,high,high,high,unclear,high,high,high,high,Both raters D3 high: sample conditioned on clinical pregnancy
+Luo 2026,luo2026,low,unclear,low,unclear,unclear,low,low,low,unclear,unclear,low,low,low,high,high,low,low,low,unclear,unclear,Both raters D2 low
+Fatmawati 2026,fatmawati2026,low,low,low,low,low,unclear,unclear,unclear,low,unclear,unclear,low,unclear,unclear,unclear,unclear,low,unclear,low,unclear,Both raters: exclusions not counted (D1) and incomplete cumulative follow-up (D3) -> unclear
+Abdala 2025,abdala2025,low,low,low,high,high,unclear,low,unclear,high,high,low,low,unclear,high,high,low,low,unclear,high,high,Both raters D3 unclear
+Fraire-Zamora 2026,frairezamora2026,low,high,low,high,high,unclear,high,low,high,high,low,high,low,high,high,low,high,low,high,high,No change
+Ortiz 2026,ortiz2026,unclear,low,low,high,high,low,low,unclear,high,high,low,low,unclear,high,high,low,low,unclear,high,high,"Both raters D1 low, D3 unclear"
+Chen Z 2022,chenz2022,low,low,low,high,high,unclear,unclear,low,unclear,unclear,low,low,unclear,high,high,low,low,low,high,high,No change
+Brás de Guimarães 2020,bras2020,low,low,low,high,high,unclear,low,low,high,high,low,low,low,high,high,low,low,low,high,high,No change
+Cumberbatch 2025,cumberbatch2025,low,low,unclear,high,high,unclear,unclear,unclear,high,high,unclear,low,unclear,high,high,unclear,low,unclear,high,high,Both raters D1 unclear
+Nowak 2026,nowak2026,low,unclear,unclear,high,high,unclear,unclear,unclear,high,high,unclear,low,unclear,high,high,unclear,unclear,unclear,high,high,Both raters D1 unclear
+Sengupta 2025,sengupta2025,unclear,high,unclear,high,high,unclear,high,unclear,high,high,unclear,high,unclear,high,high,unclear,high,unclear,high,high,No change
+Amini 2021,amini2021,low,low,unclear,high,high,high,high,high,high,high,high,high,high,high,high,high,high,high,high,high,Both raters D1-D3 high: rated against the stated pre-treatment use
+Minano Masip 2026,minanomasip2026,unclear,low,unclear,high,high,unclear,unclear,unclear,high,high,unclear,low,unclear,high,high,unclear,low,unclear,high,high,No change
+Cai 2024,cai2024,low,low,low,unclear,unclear,unclear,unclear,unclear,unclear,unclear,low,low,low,high,high,low,low,low,unclear,unclear,No change
+Lantzi 2025,lantzi2025,low,unclear,low,high,high,unclear,unclear,low,unclear,unclear,unclear,high,low,unclear,high,unclear,unclear,low,unclear,unclear,"Both raters D4 unclear: binned calibration plot reported, so 'no calibration' did not hold -> unclear; overall unclear (raters split)"
+Priya 2026,priya2026,unclear,unclear,unclear,high,high,high,unclear,high,high,high,high,high,unclear,high,high,high,unclear,unclear,high,high,Both raters D1 high
+Benchaib 2022,benchaib2022,high,low,unclear,high,high,high,unclear,unclear,high,high,high,low,unclear,high,high,high,low,unclear,high,high,No change
+Liu Z 2024,liuz2024,low,low,low,high,high,low,low,low,unclear,unclear,low,low,low,high,high,low,low,low,high,high,No change
+Liang 2021,liang2021,low,low,low,high,high,unclear,unclear,low,high,high,low,low,low,high,high,low,low,low,high,high,No change
+Bai J 2026,baij2026,unclear,low,low,high,high,unclear,low,low,unclear,unclear,unclear,low,low,high,high,unclear,low,low,high,high,No change
+Xing 2025,xing2025,high,low,low,unclear,high,high,low,low,unclear,high,high,low,low,high,high,high,low,low,unclear,high,No change

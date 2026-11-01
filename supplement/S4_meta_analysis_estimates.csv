@@ -1,0 +1,67 @@
+study,key,decision,validation,auc,lo,hi,ci_source,se_method,eval_n,events,logit_auc,se_logit,pooled,in_internal,in_external,in_overall,risk_of_bias,source
+Banerjee 2010,banerjee2010,pre_transfer,external,0.8,0.7553688319510788,0.8382323404977082,derived,hm_approx,634,184,1.3863,0.1321,True,False,True,True,unclear,full text
+Banerjee 2010,banerjee2010,post_cycle,external,0.68,0.5766664170704445,0.7682471731399266,derived,hm_approx,230,41,0.7538,0.2269,True,False,False,False,unclear,full text
+Qiu 2019,qiu2019,pre_treatment,internal,0.73,0.7069886402066206,0.7518385251249703,derived,hm_approx,2156,839,0.9946,0.0581,True,True,False,True,unclear,full text
+Goyal 2020,goyal2020,unclear,internal,0.846,0.8424541280990449,0.8494803241569877,derived,hm,47995,23998,1.7036,0.0138,True,True,False,True,high,full text
+Zhang 2022,zhang2022,pre_treatment,internal,0.794,0.7883550625100455,0.7995326625268763,derived,hm,24680,12340,1.3492,0.0174,True,True,False,True,high,full text
+Liu X 2023,liux2023,pre_treatment,internal,0.612,0.553,0.67,reported,ci,,,0.4557,0.1264,True,True,False,False,high,full text
+Liu X 2023,liux2023,pre_treatment,external,0.634,0.511,0.758,reported,ci,78,,0.5494,0.28,True,False,True,True,high,full text
+Liu X 2023,liux2023,post_cycle,internal,0.816,0.773,0.859,reported,ci,,,1.4895,0.1484,True,False,False,False,high,full text
+Liu X 2023,liux2023,post_cycle,external,0.835,0.743,0.926,reported,ci,78,,1.6215,0.3738,True,False,False,False,high,full text
+Liu L 2024a,liu2024rbe,pre_transfer,internal,0.854,0.799876758456587,0.8953998005627043,derived,hm_approx,281,118,1.7663,0.1943,True,True,False,False,high,full text
+Liu L 2024a,liu2024rbe,pre_transfer,external,0.862,0.7524734351163521,0.9277181820277915,derived,hm_approx,82,35,1.832,0.3674,True,False,True,True,high,full text
+Liu L 2024b,liul2024,pre_transfer,internal,0.791,0.752,0.831,reported,ci,,,1.331,0.1233,True,True,False,True,high,full text
+Peng 2024,peng2024,post_stimulation,internal,0.671,0.63,0.713,reported,ci,,,0.7127,0.0964,True,True,False,True,high,full text
+Zhu 2025a,zhu2025,pre_transfer,internal,0.822,0.777,0.867,reported,ci,,,1.53,0.1598,True,True,False,True,high,full text
+Liu Y 2025,liuy2025,unclear,internal,0.973,0.9691063631447688,0.976414850590655,derived,hm_assumed,9703,3881,3.5845,0.0708,True,True,False,True,high,full text
+Borji 2025,borji2025,unclear,internal,0.984,0.9817507650248595,0.9859759747095722,derived,hm_assumed,17252,6901,4.119,0.0683,True,True,False,True,high,full text
+Borji 2025,borji2025,unclear,external,0.972,,,reported,none,,,3.5472,,False,False,False,False,high,full text
+Jain 2025,jain2025,unclear,internal,0.999,0.9686782451128932,0.9999690123226554,derived,hm_assumed,400,160,6.9068,1.7731,True,True,False,True,high,full text
+Guo 2026,guo2026,pre_treatment,internal,0.678,0.649,0.708,reported,ci,,,0.7446,0.0691,True,True,False,False,high,full text
+Guo 2026,guo2026,post_stimulation,internal,0.725,0.698,0.751,reported,ci,,,0.9694,0.0679,True,False,False,False,high,full text
+Guo 2026,guo2026,pre_transfer,internal,0.731,0.704,0.757,reported,ci,,,0.9997,0.0688,True,False,False,False,high,full text
+Guo 2026,guo2026,pre_transfer,external,0.719,0.696,0.741,reported,ci,2058,,0.9395,0.0569,True,False,True,True,high,full text
+Fu 2026,fu2026,pre_transfer,internal,0.762,0.743,0.781,reported,ci,,,1.1637,0.0535,True,True,False,False,high,full text
+Fu 2026,fu2026,pre_transfer,external,0.712,0.686,0.737,reported,ci,1607,,0.9051,0.0635,True,False,True,True,high,full text
+Liu L 2026,liul2026,pre_treatment,internal,0.759,0.704,0.81,reported,ci,,,1.1472,0.1489,True,True,False,True,high,full text
+Liu L 2026,liul2026,post_stimulation,internal,0.755,0.699,0.808,reported,ci,,,1.1255,0.1517,True,False,False,False,high,full text
+Liu L 2026,liul2026,pre_transfer,internal,0.793,0.739,0.84,reported,ci,,,1.3431,0.1575,True,False,False,False,high,full text
+Liu B 2026,liub2026,unclear,internal,0.83,0.719,0.941,reported,ci,,,1.5856,0.4668,True,True,False,True,high,full text
+Zhao 2026,zhao2026,pre_transfer,internal,0.704,0.669095158830406,0.7366720031364015,derived,hm_assumed,990,396,0.8664,0.0828,True,True,False,True,high,full text
+Chen 2026,cheny2026,unclear,internal,0.782,0.7590078729479987,0.8033668218096007,derived,hm,1782,763,1.2774,0.0664,True,True,False,True,high,full text
+Lin 2026,lin2026,post_transfer,internal,0.917,0.7774114758769831,0.9721827868634122,derived,hm_approx,39,24,2.4023,0.5876,False,False,False,False,high,full text
+Wu 2025,wu2025jtm,pre_transfer,internal,0.807,0.7862325397478008,0.8261959054920558,derived,hm_approx,2345,794,1.4306,0.0654,True,True,False,True,high,full text
+Zhu 2025b,zhu2025jarg,pre_transfer,internal,0.852,0.821,0.884,reported,ci,551,214,1.7504,0.1295,True,True,False,True,unclear,full text
+Zhang A 2026,zhanga2026,pre_transfer,internal,0.827,0.8,0.85,reported,ci,1037,514,1.5645,0.0889,True,True,False,False,high,full text
+Zhang A 2026,zhanga2026,pre_transfer,external,0.851,0.812,0.89,reported,ci,382,196,1.7425,0.1601,True,False,True,True,high,full text
+Shao 2026,shao2026,pre_treatment,external,0.69,0.65,0.73,reported,ci,613,373,0.8001,0.0958,True,False,True,True,low,full text
+Shao 2026,shao2026,post_cycle,external,0.82,0.79,0.85,reported,ci,613,373,1.5163,0.1045,True,False,False,False,low,full text
+Sun 2026,sun2026,pre_treatment,internal,0.88,0.86,0.89,reported,ci,511,,1.9924,0.0703,True,True,False,False,high,full text
+Sun 2026,sun2026,pre_transfer,internal,0.9,0.88,0.92,reported,ci,511,,2.1972,0.1148,True,False,False,False,high,full text
+Sun 2026,sun2026,pre_treatment,external,0.69,0.65,0.73,reported,ci,1475,,0.8001,0.0958,True,False,True,True,high,full text
+Sun 2026,sun2026,pre_transfer,external,0.8,0.76,0.83,reported,ci,1475,,1.3863,0.1104,True,False,False,False,high,full text
+Mourad 2023,mourad2023,post_transfer,internal,0.78,0.74,0.82,reported,ci,597,,1.2657,0.12,False,False,False,False,high,full text
+Alson 2026,alson2026,pre_treatment,internal,0.66,0.5799986116871251,0.7318091185419261,derived,hm_approx,208,85,0.6633,0.1737,True,True,False,True,high,full text
+Bai 2025,bai2025,post_transfer,internal,0.746,0.688,0.804,reported,ci,406,,1.0774,0.1583,False,False,False,False,high,full text
+Luo 2026,luo2026,unclear,internal,0.843,0.8156666741161961,0.8669414509197815,derived,hm_approx,1041,429,1.6807,0.0987,True,True,False,False,unclear,full text
+Luo 2026,luo2026,unclear,external,0.809,0.7852988830404358,0.8306489519595857,derived,hm,1467,675,1.4435,0.0749,True,False,True,True,unclear,full text
+Fatmawati 2026,fatmawati2026,pre_transfer,internal,0.82,0.79,0.85,reported,ci,374,204,1.5163,0.1045,True,True,False,True,unclear,full text
+Abdala 2025,abdala2025,pre_transfer,internal,0.626,0.586650676696535,0.6637504501577665,derived,hm_approx,792,401,0.5151,0.0842,True,True,False,True,high,full text
+Fraire-Zamora 2026,frairezamora2026,unclear,internal,0.895,0.8870035969463758,0.9024927291311711,derived,hm,8066,3228,2.1429,0.042,True,True,False,True,high,full text
+Ortiz 2026,ortiz2026,pre_transfer,internal,0.781,0.6205435397656314,0.8860638621430912,derived,hm_assumed,53,21,1.2715,0.3978,True,True,False,True,high,full text
+Chen Z 2022,chenz2022,post_stimulation,internal,0.901,0.89,0.912,reported,ci,,,2.2084,0.0632,True,True,False,True,high,full text
+Brás de Guimarães 2020,bras2020,pre_transfer,internal,0.752,0.725,0.775,reported,ci,,,1.1093,0.0682,True,True,False,True,high,full text
+Cumberbatch 2025,cumberbatch2025,pre_transfer,internal,0.72,0.49768164935901826,0.8696872899944754,derived,hm,37,11,0.9445,0.4866,True,True,False,True,high,full text
+Nowak 2026,nowak2026,pre_transfer,internal,0.927,0.8444349469485459,0.9674341932081634,derived,hm_assumed,104,42,2.5415,0.4336,True,True,False,True,high,full text
+Sengupta 2025,sengupta2025,post_transfer,internal,0.93,0.8952564025042087,0.9538136476136024,derived,hm_assumed,399,160,2.5867,0.2251,False,False,False,False,high,full text
+Amini 2021,amini2021,post_transfer,internal,0.6,0.55,0.64,reported,ci,1821,,0.4055,0.0956,False,False,False,False,high,full text
+Minano Masip 2026,minanomasip2026,pre_transfer,internal,0.65,0.48014199185229145,0.7887741769994127,derived,hm_approx,53,19,0.619,0.3564,True,True,False,True,high,full text
+Cai 2024,cai2024,pre_treatment,internal,0.71,0.71,0.72,reported,ci,26382,16675,0.8954,0.0125,True,True,False,True,unclear,full text
+Lantzi 2025,lantzi2025,pre_treatment,internal,0.6732,0.6696303782638721,0.676749670858226,derived,hm,133049,32047,0.7227,0.0083,True,True,False,True,unclear,full text
+Lantzi 2025,lantzi2025,unclear,internal,0.7466,0.7432465274850382,0.7499244096942284,derived,hm,133049,32047,1.0806,0.009,True,False,False,False,unclear,full text
+Priya 2026,priya2026,unclear,internal,0.89,,,reported,none,,,2.0907,,False,False,False,False,high,full text
+Benchaib 2022,benchaib2022,pre_transfer,internal,0.866,0.8006558440924901,0.9122715762623117,derived,hm_approx,294,74,1.866,0.2427,True,True,False,True,high,full text
+Liu Z 2024,liuz2024,pre_transfer,internal,0.83,0.822,0.839,reported,ci,8383,4027,1.5856,0.0308,True,True,False,True,high,full text
+Liang 2021,liang2021,pre_transfer,internal,0.83,0.8102007891631603,0.8481209984390937,derived,hm,2189,815,1.5856,0.0685,True,True,False,True,high,full text
+Bai J 2026,baij2026,pre_transfer,internal,0.745,0.698668146918834,0.7863860860645475,derived,hm_approx,527,215,1.0721,0.1179,True,True,False,True,high,full text
+Xing 2025,xing2025,pre_treatment,internal,0.775,0.7341327769703563,0.8112009174674325,derived,hm_approx,538,311,1.2368,0.1128,True,True,False,True,high,full text

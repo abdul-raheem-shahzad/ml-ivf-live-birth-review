@@ -1,0 +1,43 @@
+Section and topic,Item,Checklist item (abridged),Location where reported
+Title,1,Identify the report as a systematic review.,Title
+Abstract,2,See the PRISMA 2020 for Abstracts checklist.,"Abstract (structured content: objective, methods, results, conclusions)"
+Introduction: Rationale,3,Describe the rationale for the review in the context of existing knowledge.,Section 1; Table 1
+Introduction: Objectives,4,Provide an explicit statement of the objectives or questions.,Section 1 (final two paragraphs)
+Methods: Eligibility criteria,5,Specify the inclusion and exclusion criteria and how studies were grouped.,Section 2.1
+Methods: Information sources,6,"Specify all databases, registers, websites and other sources searched, with the date last searched.","Section 2.1; Appendix A (OpenAlex, 21 October 2026; supplementary queries 22 October 2026; citation searching)"
+Methods: Search strategy,7,"Present the full search strategies, including filters and limits.",Appendix A
+Methods: Selection process,8,"Specify the selection methods, number of reviewers and automation tools.",Section 2.2 (single assessor)
+Methods: Data collection process,9,"Specify the data collection methods, number of reviewers and tools.","Section 2.2 (CHARMS; single assessor; AI assistance to locate figures, every value checked)"
+Methods: Data items,10a,List and define all outcomes for which data were sought.,Sections 2.2 and 3.2; Table 3
+Methods: Data items,10b,List and define all other variables for which data were sought.,Section 2.2; Tables 4 and 5; Supplementary Table S2
+Methods: Study risk of bias assessment,11,Specify the methods used to assess risk of bias.,"Section 2.2 (PROBAST+AI, domain level); Supplementary Table S3"
+Methods: Effect measures,12,Specify the effect measures used.,Section 2.3 (logit AUC); Eqs. (1)-(2)
+Methods: Synthesis methods,13a,Describe how studies were chosen for each synthesis.,Section 2.3 (one estimate per study; selection rules)
+Methods: Synthesis methods,13b,"Describe methods to prepare data for synthesis (e.g. missing statistics, conversions).",Section 2.3 (SE from CI or Hanley-McNeil; assumed event rate flagged in Supplementary Table S4)
+Methods: Synthesis methods,13c,Describe methods to tabulate or display results.,Section 2.3; Tables 4-6; Figs. 3-4
+Methods: Synthesis methods,13d,Describe the synthesis methods and software.,"Section 2.3 (DerSimonian-Laird; REML with Hartung-Knapp-Sidik-Jonkman; Python, NumPy, SciPy); Eqs. (3)-(4)"
+Methods: Synthesis methods,13e,Describe methods to explore heterogeneity.,"Section 2.3 (strata by validation design, decision point and risk of bias; prediction intervals)"
+Methods: Synthesis methods,13f,Describe sensitivity analyses.,Section 2.3 (six sensitivity analyses and estimator sensitivity)
+Methods: Reporting bias assessment,14,Describe methods to assess risk of bias due to missing results.,Section 2.3 (Egger's test); Section 9
+Methods: Certainty assessment,15,Describe methods to assess certainty in the body of evidence.,"Not formally graded (no GRADE adaptation for prediction-model AUCs); certainty addressed through risk of bias, heterogeneity and prediction intervals (Sections 4.5, 5.3, 9)"
+Results: Study selection,16a,"Describe the results of the search and selection, ideally with a flow diagram.",Section 2.2; Fig. 1; Supplementary File S1
+Results: Study selection,16b,"Cite studies that seemed to meet the criteria but were excluded, and explain why.",Section 2.2; Supplementary File S1 (reason for every full-text exclusion)
+Results: Study characteristics,17,Cite each included study and present its characteristics.,Table 4; Table 5; Supplementary Table S2
+Results: Risk of bias in studies,18,Present assessments of risk of bias for each included study.,Table 6; Supplementary Table S3
+Results: Results of individual studies,19,Present for each study summary statistics and effect estimates with precision.,Table 4; Fig. 4; Supplementary Table S4
+Results: Results of syntheses,20a,Summarise characteristics and risk of bias among contributing studies.,Sections 4.5 and 5.3
+Results: Results of syntheses,20b,"Present results of all statistical syntheses, with precision and heterogeneity.",Section 4.5; Fig. 4
+Results: Results of syntheses,20c,Present results of investigations of possible causes of heterogeneity.,"Section 4.5 (strata by validation design, decision point and risk of bias)"
+Results: Results of syntheses,20d,Present results of sensitivity analyses.,Section 4.5; Supplementary Table S4
+Results: Reporting biases,21,Present assessments of risk of bias due to missing results.,Section 4.5 (Egger's test)
+Results: Certainty of evidence,22,Present assessments of certainty for each outcome.,Not formally graded; see item 15
+Discussion,23a,Provide a general interpretation of the results.,"Sections 4.5, 6 and 10"
+Discussion,23b,Discuss limitations of the evidence.,Sections 5 and 9
+Discussion,23c,Discuss limitations of the review processes.,Section 9
+Discussion,23d,"Discuss implications for practice, policy and research.",Sections 6.3 and 8
+Other information: Registration and protocol,24a,"Provide registration information, or state that the review was not registered.",Section 2.2 (not registered)
+Other information: Registration and protocol,24b,"Indicate where the protocol can be accessed, or state that none was prepared.",Section 2.2 (no protocol registered)
+Other information: Registration and protocol,24c,Describe amendments to information provided at registration or in the protocol.,Not applicable (not registered); supplementary search terms added after first-round review are reported in Appendix A
+Other information: Support,25,Describe sources of financial or non-financial support.,Funding statement
+Other information: Competing interests,26,Declare any competing interests.,Declaration of competing interest
+"Other information: Availability of data, code and other materials",27,Report which materials are publicly available and where.,Data availability statement; Supplementary Files S1-S6 and code
