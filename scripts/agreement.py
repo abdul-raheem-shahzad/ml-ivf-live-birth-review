@@ -19,6 +19,10 @@ def norm(x):
     return unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode().lower().replace("-", " ").strip()
 
 
+# Study labels whose year was corrected after the second appraisals were made (online 2023, journal issue 2024).
+ALIAS = {"mourad 2024": "mourad 2023"}
+
+
 def load_rater(p):
     out = {}
     for r in csv.DictReader(open(p, encoding="utf-8-sig")):
@@ -51,7 +55,7 @@ for s in orig:
     k = norm(s["label"])
     f = final[s["key"]]
     rows.append(dict(key=s["key"], label=s["label"], au=s["rob"] + [s["overall"]],
-                     A=A.get(k, ["not rated"] * 5), B=B.get(k, ["not rated"] * 5),
+                     A=A.get(k) or A.get(ALIAS.get(k, ""), ["not rated"] * 5), B=B.get(k) or B.get(ALIAS.get(k, ""), ["not rated"] * 5),
                      fin=f["rob"] + [f["overall"]], basis=adj.get(s["key"], "")))
 assert len(rows) == 48
 

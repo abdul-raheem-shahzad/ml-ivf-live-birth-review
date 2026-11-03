@@ -36,13 +36,17 @@
   \bibinfo{volume}{42}, \bibinfo{pages}{2641--2650}.
 \newblock \DOIprefix\doi{10.1007/s10815-025-03524-3}.
 %Type = Article
-\bibitem[{Alson et~al.(2026)}]{alson2026scirep}
-\bibinfo{author}{Alson, S.}, et~al., \bibinfo{year}{2026}.
+\bibitem[{Alson et~al.(2026)Alson, Björnsson, Henic, Hansson and
+  Sladkevicius}]{alson2026scirep}
+\bibinfo{author}{Alson, S.}, \bibinfo{author}{Björnsson, O.},
+  \bibinfo{author}{Henic, E.}, \bibinfo{author}{Hansson, S.R.},
+  \bibinfo{author}{Sladkevicius, P.}, \bibinfo{year}{2026}.
 \newblock \bibinfo{title}{Machine learning prediction of live birth after {IVF}
   using the morphological uterus sonographic assessment group features of
   adenomyosis}.
-\newblock \bibinfo{journal}{Scientific Reports}
-  \DOIprefix\doi{10.1038/s41598-025-31013-1}.
+\newblock \bibinfo{journal}{Scientific Reports} \bibinfo{volume}{16},
+  \bibinfo{pages}{4324}.
+\newblock \DOIprefix\doi{10.1038/s41598-025-31013-1}.
 %Type = Article
 \bibitem[{Amini et~al.(2021)Amini, Ramezanali, Parchehbaf-Kashani,
   Maroufizadeh, Omani-Samani and Ghaheri}]{amini2021ijfs}
@@ -81,6 +85,7 @@
 \newblock \bibinfo{title}{{TabNet}: attentive interpretable tabular learning},
   in: \bibinfo{booktitle}{Proceedings of the AAAI Conference on Artificial
   Intelligence}, pp. \bibinfo{pages}{6679--6687}.
+\newblock \DOIprefix\doi{10.1609/aaai.v35i8.16826}.
 %Type = Article
 \bibitem[{Bai et~al.(2026)Bai, Wang, Guo, Chen, Wang and Li}]{baij2026cjrc}
 \bibinfo{author}{Bai, J.}, \bibinfo{author}{Wang, X.}, \bibinfo{author}{Guo,
@@ -100,7 +105,8 @@
 \newblock \bibinfo{title}{Predictive modeling of pregnancy outcomes utilizing
   multiple machine learning techniques for in vitro fertilization-embryo
   transfer}.
-\newblock \bibinfo{journal}{BMC Pregnancy and Childbirth} \bibinfo{volume}{25}.
+\newblock \bibinfo{journal}{BMC Pregnancy and Childbirth} \bibinfo{volume}{25},
+  \bibinfo{pages}{316}.
 \newblock \DOIprefix\doi{10.1186/s12884-025-07433-2}.
 %Type = Article
 \bibitem[{Banerjee et~al.(2010)Banerjee, Choi, Shahine, Jun, O'Leary, Lathi,
@@ -184,9 +190,10 @@
   \bibinfo{pages}{364--373}.
 \newblock \DOIprefix\doi{10.1093/humrep/dead242}.
 %Type = Article
-\bibitem[{Cao et~al.(2025)Cao, Acharya, Salumets and Esteki}]{cao2025aogs}
+\bibitem[{Cao et~al.(2025)Cao, Acharya, Salumets and
+  Zamani~Esteki}]{cao2025aogs}
 \bibinfo{author}{Cao, P.}, \bibinfo{author}{Acharya, G.},
-  \bibinfo{author}{Salumets, A.}, \bibinfo{author}{Esteki, M.Z.},
+  \bibinfo{author}{Salumets, A.}, \bibinfo{author}{Zamani~Esteki, M.},
   \bibinfo{year}{2025}.
 \newblock \bibinfo{title}{Large language models to facilitate pregnancy
   prediction after in vitro fertilization}.
@@ -250,6 +257,7 @@
   technology: separating the dream from reality}.
 \newblock \bibinfo{journal}{Reproductive BioMedicine Online}
   \bibinfo{volume}{50}, \bibinfo{pages}{104855}.
+\newblock \DOIprefix\doi{10.1016/j.rbmo.2025.104855}.
 %Type = Article
 \bibitem[{Collins et~al.(2024)Collins, Moons, Dhiman, Riley, Beam, Van~Calster
   et~al.}]{collins2024tripodai}
@@ -282,7 +290,8 @@
 \newblock \bibinfo{title}{Embryo quality and in vitro fertilization outcome
   prediction using machine learning and explainability}, in:
   \bibinfo{booktitle}{2025 Eleventh International Conference on eDemocracy and
-  eGovernment (ICEDEG)}.
+  eGovernment (ICEDEG)}, pp. \bibinfo{pages}{239--247}.
+\newblock \DOIprefix\doi{10.1109/ICEDEG65568.2025.11081530}.
 %Type = Article
 \bibitem[{Cox et~al.(2022)Cox, Thoma, Tchangalova, Mburu, Bornstein, Johnson
   et~al.}]{cox2022hropen}
@@ -412,7 +421,7 @@
   Union}(2026)}]{euomnibus2026}
 \bibinfo{author}{{European Parliament and Council of the European Union}},
   \bibinfo{year}{2026}.
-\newblock \bibinfo{title}{Regulation ({EU}) 2026/1744 amending regulation
+\newblock \bibinfo{title}{Regulation ({EU}) 2026/1744 amending {Regulation}
   ({EU}) 2024/1689 ({Digital Omnibus on AI})}.
 \newblock \bibinfo{howpublished}{Official Journal of the European Union}.
 %Type = Article
@@ -424,7 +433,7 @@
   machine-learning model to predict cumulative live birth in {PCOS}-associated
   infertility}.
 \newblock \bibinfo{journal}{Sriwijaya Journal of Obstetrics and Gynecology}
-  \bibinfo{volume}{3}.
+  \bibinfo{volume}{3}, \bibinfo{pages}{84--97}.
 \newblock \DOIprefix\doi{10.59345/sjog.v3i2.282}.
 %Type = Article
 \bibitem[{Fjeldstad et~al.(2024)Fjeldstad, Qi, Siddique, Mercuri, Krivoi and
@@ -494,7 +503,8 @@
 \newblock \bibinfo{title}{Prediction meets causal inference: the role of
   treatment in clinical prediction models}.
 \newblock \bibinfo{journal}{European Journal of Epidemiology}
-  \DOIprefix\doi{10.1007/s10654-020-00636-1}.
+  \bibinfo{volume}{35}, \bibinfo{pages}{619--630}.
+\newblock \DOIprefix\doi{10.1007/s10654-020-00636-1}.
 %Type = Article
 \bibitem[{van~den Goorbergh et~al.(2022)van~den Goorbergh, van Smeden,
   Timmerman and Van~Calster}]{vandengoorbergh2022jamia}
@@ -531,7 +541,8 @@
   \bibinfo{author}{Varoquaux, G.}, \bibinfo{year}{2022}.
 \newblock \bibinfo{title}{Why do tree-based models still outperform deep
   learning on typical tabular data?}, in: \bibinfo{booktitle}{Advances in
-  Neural Information Processing Systems 35 (Datasets and Benchmarks Track)}.
+  Neural Information Processing Systems 35 (Datasets and Benchmarks Track)},
+  pp. \bibinfo{pages}{507--520}.
 %Type = Article
 \bibitem[{Grzegorczyk-Martin et~al.(2022)}]{grzegorczyk2022jarg}
 \bibinfo{author}{Grzegorczyk-Martin, V.}, et~al., \bibinfo{year}{2022}.
@@ -583,6 +594,7 @@
   operating characteristic ({ROC}) curve}.
 \newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{143},
   \bibinfo{pages}{29--36}.
+\newblock \DOIprefix\doi{10.1148/radiology.143.1.7063747}.
 %Type = Inproceedings
 \bibitem[{Hegselmann et~al.(2023)Hegselmann, Buendia, Lang, Agrawal, Jiang and
   Sontag}]{hegselmann2023tabllm}
@@ -591,9 +603,9 @@
   \bibinfo{author}{Jiang, X.}, \bibinfo{author}{Sontag, D.},
   \bibinfo{year}{2023}.
 \newblock \bibinfo{title}{{TabLLM}: few-shot classification of tabular data
-  with large language models}, in: \bibinfo{booktitle}{Proceedings of the
+  with large language models}, in: \bibinfo{booktitle}{Proceedings of the 26th
   International Conference on Artificial Intelligence and Statistics
-  (AISTATS)}.
+  (AISTATS)}, pp. \bibinfo{pages}{5549--5581}.
 %Type = Article
 \bibitem[{Higgins and Thompson(2002)}]{higgins2002sim}
 \bibinfo{author}{Higgins, J.P.T.}, \bibinfo{author}{Thompson, S.G.},
@@ -629,6 +641,7 @@
   foundation model}.
 \newblock \bibinfo{journal}{Nature} \bibinfo{volume}{637},
   \bibinfo{pages}{319--326}.
+\newblock \DOIprefix\doi{10.1038/s41586-024-08328-6}.
 %Type = Article
 \bibitem[{van Houwelingen(2007)}]{vanhouwelingen2007sjs}
 \bibinfo{author}{van Houwelingen, H.C.}, \bibinfo{year}{2007}.
@@ -648,6 +661,7 @@
   selection in {IVF}: a randomized, double-blind noninferiority trial}.
 \newblock \bibinfo{journal}{Nature Medicine} \bibinfo{volume}{30},
   \bibinfo{pages}{3114--3120}.
+\newblock \DOIprefix\doi{10.1038/s41591-024-03166-5}.
 %Type = Misc
 \bibitem[{{International Medical Device Regulators
   Forum}(2014)}]{imdrf2014samd}
@@ -694,6 +708,7 @@
   \bibinfo{booktitle}{Proceedings of the 2019 Conference of the North American
   Chapter of the Association for Computational Linguistics (NAACL-HLT)}, pp.
   \bibinfo{pages}{3543--3556}.
+\newblock \DOIprefix\doi{10.18653/v1/N19-1357}.
 %Type = Article
 \bibitem[{Kapoor and Narayanan(2023)}]{kapoor2023patterns}
 \bibinfo{author}{Kapoor, S.}, \bibinfo{author}{Narayanan, A.},
@@ -719,6 +734,7 @@
   deep learning architectures for in vitro fertilization}.
 \newblock \bibinfo{journal}{Scientific Data} \bibinfo{volume}{10},
   \bibinfo{pages}{271}.
+\newblock \DOIprefix\doi{10.1038/s41597-023-02182-3}.
 %Type = Article
 \bibitem[{K{\"u}nzel et~al.(2019)K{\"u}nzel, Sekhon, Bickel and
   Yu}]{kunzel2019pnas}
@@ -763,6 +779,7 @@
   critical appraisal}.
 \newblock \bibinfo{journal}{Human Reproduction Update} \bibinfo{volume}{15},
   \bibinfo{pages}{537--552}.
+\newblock \DOIprefix\doi{10.1093/humupd/dmp013}.
 %Type = Inproceedings
 \bibitem[{Li et~al.(2020)Li, Sahu, Zaheer, Sanjabi, Talwalkar and
   Smith}]{li2020mlsys}
@@ -884,7 +901,7 @@
 \newblock \bibinfo{title}{Comparative analysis of convolutional neural networks
   and traditional machine learning models for {IVF} live birth prediction: a
   retrospective analysis of 48514 {IVF} cycles and an evaluation of deployment
-  feasibility in resource-limited settings}.
+  feasibility in resource-constrained settings}.
 \newblock \bibinfo{journal}{Frontiers in Endocrinology} \bibinfo{volume}{16},
   \bibinfo{pages}{1556681}.
 \newblock \DOIprefix\doi{10.3389/fendo.2025.1556681}.
@@ -972,15 +989,16 @@
   \bibinfo{pages}{1273--1282}.
 %Type = Article
 \bibitem[{Mehta et~al.(2024)Mehta, Mangla, Sharma, Rakhra, Choudhury and
-  Krishna}]{mehta2024eai}
+  Rama~Krishna}]{mehta2024eai}
 \bibinfo{author}{Mehta, V.}, \bibinfo{author}{Mangla, M.},
   \bibinfo{author}{Sharma, N.}, \bibinfo{author}{Rakhra, M.},
-  \bibinfo{author}{Choudhury, T.}, \bibinfo{author}{Krishna, G.R.},
+  \bibinfo{author}{Choudhury, T.}, \bibinfo{author}{Rama~Krishna, G.},
   \bibinfo{year}{2024}.
 \newblock \bibinfo{title}{Machine learning based assessment and predictive
   analysis of in-vitro fertilization success rate}.
 \newblock \bibinfo{journal}{EAI Endorsed Transactions on Pervasive Health and
-  Technology} \DOIprefix\doi{10.4108/eetpht.10.5511}.
+  Technology} \bibinfo{volume}{10}.
+\newblock \DOIprefix\doi{10.4108/eetpht.10.5511}.
 %Type = Article
 \bibitem[{Minano~Masip et~al.(2026)Minano~Masip, Borduas, Kadoch, Phillips,
   Precup and Dufort}]{minanomasip2026medicina}
@@ -1015,13 +1033,18 @@
   reviews of prediction modelling studies: the {CHARMS} checklist}.
 \newblock \bibinfo{journal}{PLoS Medicine} \bibinfo{volume}{11},
   \bibinfo{pages}{e1001744}.
+\newblock \DOIprefix\doi{10.1371/journal.pmed.1001744}.
 %Type = Article
-\bibitem[{Mourad et~al.(2023)}]{mourad2023fs}
-\bibinfo{author}{Mourad, A.}, et~al., \bibinfo{year}{2023}.
+\bibitem[{Mourad et~al.(2024)Mourad, Antaki, Rowen, Lévesque and
+  Lapensée}]{mourad2023fs}
+\bibinfo{author}{Mourad, A.}, \bibinfo{author}{Antaki, R.},
+  \bibinfo{author}{Rowen, M.}, \bibinfo{author}{Lévesque, {\'E}.},
+  \bibinfo{author}{Lapensée, L.}, \bibinfo{year}{2024}.
 \newblock \bibinfo{title}{The {POPI-Plus} tool: prediction model of outcome of
-  pregnancy in {IVF} from a large retrospective cohort}.
-\newblock \bibinfo{journal}{Fertility and Sterility}
-  \DOIprefix\doi{10.1016/j.fertnstert.2023.11.035}.
+  pregnancy in in vitro fertilization from a large retrospective cohort}.
+\newblock \bibinfo{journal}{Fertility and Sterility} \bibinfo{volume}{121},
+  \bibinfo{pages}{489--496}.
+\newblock \DOIprefix\doi{10.1016/j.fertnstert.2023.11.035}.
 %Type = Article
 \bibitem[{Mrugacz et~al.(2026)Mrugacz, Mospinek, Jagielska
   et~al.}]{mrugacz2026biology}
@@ -1029,6 +1052,7 @@
   \bibinfo{author}{Jagielska, M.}, et~al., \bibinfo{year}{2026}.
 \newblock \bibinfo{title}{Artificial intelligence in routine {IVF} practice}.
 \newblock \bibinfo{journal}{Biology} \bibinfo{volume}{15}, \bibinfo{pages}{42}.
+\newblock \DOIprefix\doi{10.3390/biology15010042}.
 %Type = Misc
 \bibitem[{{National Medical Products
   Administration}(2021)}]{nmpa2021classification}
@@ -1056,8 +1080,8 @@
   \bibinfo{year}{2026}.
 \newblock \bibinfo{title}{Integrating artificial intelligence into reproductive
   medicine: a predictive algorithm for noninvasive live birth assessment}.
-\newblock \bibinfo{journal}{JBRA Assisted Reproduction}
-  \DOIprefix\doi{10.5935/1518-0557.20260073}.
+\newblock \bibinfo{journal}{JBRA Assisted Reproduction} \bibinfo{volume}{30}.
+\newblock \DOIprefix\doi{10.5935/1518-0557.20260073}.
 %Type = Article
 \bibitem[{Olawade et~al.(2026)Olawade, Abe, Nwazuo et~al.}]{olawade2026jogoh}
 \bibinfo{author}{Olawade, D.B.}, \bibinfo{author}{Abe, O.R.},
@@ -1066,6 +1090,7 @@
   in vitro fertilisation}.
 \newblock \bibinfo{journal}{Journal of Gynecology Obstetrics and Human
   Reproduction} \bibinfo{volume}{55}, \bibinfo{pages}{103235}.
+\newblock \DOIprefix\doi{10.1016/j.jogoh.2026.103235}.
 %Type = Article
 \bibitem[{Ortiz et~al.(2026)Ortiz, Morales, Lledó, Lozano, Cascales, Ten,
   Castillo and Bernabeu}]{ortiz2026jarg}
@@ -1119,7 +1144,8 @@
   birth after vitrified donor oocyte {IVF} [abstract review]}.
 \newblock \bibinfo{journal}{EMJ Reproductive Health} \bibinfo{volume}{12},
   \bibinfo{pages}{45--46}.
-\newblock \DOIprefix\doi{10.33590/emjreprohealth/17896371}.
+\newblock \URLprefix
+  \url{https://www.emjreviews.com/reproductive-health/abstract/validating-a-machine-learning-model-to-predict-live-birth-after-vitrified-donor-oocyte-ivf-j15126/}.
 %Type = Article
 \bibitem[{Peng et~al.(2024)Peng, Geng, Zhao, Hou, Tian, Liu
   et~al.}]{peng2024scirep}
@@ -1199,7 +1225,8 @@
   \bibinfo{author}{Hajirasouliha, I.}, \bibinfo{year}{2025}.
 \newblock \bibinfo{title}{A foundational model for in vitro fertilization
   trained on 18 million time-lapse images}.
-\newblock \bibinfo{journal}{Nature Communications} \bibinfo{volume}{16}.
+\newblock \bibinfo{journal}{Nature Communications} \bibinfo{volume}{16},
+  \bibinfo{pages}{6235}.
 \newblock \DOIprefix\doi{10.1038/s41467-025-61116-2}.
 %Type = Article
 \bibitem[{Ratna et~al.(2023)Ratna, Bhattacharya and McLernon}]{ratna2023humrep}
@@ -1231,6 +1258,7 @@
   clinical prediction model with a binary outcome}.
 \newblock \bibinfo{journal}{Statistics in Medicine} \bibinfo{volume}{40},
   \bibinfo{pages}{4230--4251}.
+\newblock \DOIprefix\doi{10.1002/sim.9025}.
 %Type = Article
 \bibitem[{Riley et~al.(2020)Riley, Ensor, Snell, Harrell, Martin, Reitsma
   et~al.}]{riley2020bmj}
@@ -1257,6 +1285,7 @@
   high stakes decisions and use interpretable models instead}.
 \newblock \bibinfo{journal}{Nature Machine Intelligence} \bibinfo{volume}{1},
   \bibinfo{pages}{206--215}.
+\newblock \DOIprefix\doi{10.1038/s42256-019-0048-x}.
 %Type = Article
 \bibitem[{Sengupta et~al.(2025)Sengupta, Majumdar, Choudhury, Gupta, Modi and
   Narad}]{sengupta2025ijcmph}
@@ -1297,8 +1326,9 @@
   \bibinfo{year}{2026}.
 \newblock \bibinfo{title}{Discrete time survival analysis machine learning
   models for {IVF} prognosis across multiple cycles}.
-\newblock \bibinfo{journal}{Human Reproduction Open} ,
-  \bibinfo{pages}{hoag085}\DOIprefix\doi{10.1093/hropen/hoag085}.
+\newblock \bibinfo{journal}{Human Reproduction Open} \bibinfo{volume}{2026},
+  \bibinfo{pages}{hoag085}.
+\newblock \DOIprefix\doi{10.1093/hropen/hoag085}.
 %Type = Article
 \bibitem[{Smith et~al.(2015)Smith, Tilling, Lawlor and
   Nelson}]{smith2015plosone}
@@ -1330,6 +1360,7 @@
   Development, Validation, and Updating}.
 \newblock \bibinfo{edition}{2nd} ed., \bibinfo{publisher}{Springer},
   \bibinfo{address}{Cham}.
+\newblock \DOIprefix\doi{10.1007/978-3-030-16399-0}.
 %Type = Article
 \bibitem[{Steyerberg and Harrell(2016)}]{steyerberg2016jce}
 \bibinfo{author}{Steyerberg, E.W.}, \bibinfo{author}{Harrell, F.E.},
@@ -1348,6 +1379,7 @@
   during in vitro fertilisation in women with regular menstrual cycles:
   multicentre randomised controlled trial}.
 \newblock \bibinfo{journal}{BMJ} \bibinfo{volume}{370}, \bibinfo{pages}{m2519}.
+\newblock \DOIprefix\doi{10.1136/bmj.m2519}.
 %Type = Article
 \bibitem[{Sun et~al.(2026)Sun, Wang, Zhou, Cui and Wang}]{sun2026clep}
 \bibinfo{author}{Sun, Y.}, \bibinfo{author}{Wang, Z.}, \bibinfo{author}{Zhou,
@@ -1387,7 +1419,7 @@
 \newblock \bibinfo{title}{Clinical prediction models for in vitro fertilization
   outcomes: a systematic review, meta-analysis, and external validation}.
 \newblock \bibinfo{journal}{Human Reproduction} \bibinfo{volume}{40},
-  \bibinfo{pages}{633}.
+  \bibinfo{pages}{633--646}.
 \newblock \DOIprefix\doi{10.1093/humrep/deaf013}.
 %Type = Misc
 \bibitem[{{U.S. Food and Drug Administration}(2024)}]{fda2024pccp}
@@ -1416,6 +1448,7 @@
   evaluating prediction models}.
 \newblock \bibinfo{journal}{Medical Decision Making} \bibinfo{volume}{26},
   \bibinfo{pages}{565--574}.
+\newblock \DOIprefix\doi{10.1177/0272989X06295361}.
 %Type = Article
 \bibitem[{Wager and Athey(2018)}]{wager2018jasa}
 \bibinfo{author}{Wager, S.}, \bibinfo{author}{Athey, S.}, \bibinfo{year}{2018}.
@@ -1470,6 +1503,7 @@
   {Chinese} population}.
 \newblock \bibinfo{journal}{Journal of Assisted Reproduction and Genetics}
   \bibinfo{volume}{41}, \bibinfo{pages}{2173--2183}.
+\newblock \DOIprefix\doi{10.1007/s10815-024-03153-2}.
 %Type = Article
 \bibitem[{Wu et~al.(2025)Wu, Wang et~al.}]{wu2025jtm}
 \bibinfo{author}{Wu, S.}, \bibinfo{author}{Wang, X.}, et~al.,
@@ -1493,6 +1527,7 @@
   an application study}.
 \newblock \bibinfo{journal}{Reproductive Biology and Endocrinology}
   \bibinfo{volume}{19}, \bibinfo{pages}{53}.
+\newblock \DOIprefix\doi{10.1186/s12958-021-00734-z}.
 %Type = Article
 \bibitem[{Xing et~al.(2025)Xing, Liang, Chen, Liu, Zhai, Yuan and
   Tian}]{xing2025cjrc}
@@ -1522,7 +1557,8 @@
   \bibinfo{year}{2025}.
 \newblock \bibinfo{title}{Machine learning center-specific models show improved
   {IVF} live birth predictions over {US} national registry-based model}.
-\newblock \bibinfo{journal}{Nature Communications} \bibinfo{volume}{16}.
+\newblock \bibinfo{journal}{Nature Communications} \bibinfo{volume}{16},
+  \bibinfo{pages}{3661}.
 \newblock \DOIprefix\doi{10.1038/s41467-025-58744-z}.
 %Type = Inproceedings
 \bibitem[{Zadrozny and Elkan(2002)}]{zadrozny2002kdd}

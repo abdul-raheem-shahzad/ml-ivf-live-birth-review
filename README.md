@@ -54,11 +54,11 @@ The table lists one estimate per study: the external estimate where one exists, 
 | 8 | [Chen Z 2022](https://doi.org/10.1097/CM9.0000000000001874) | Chinese Medical Journal | China, 1 centre; 2014–2018 | Boosted trees | XGBoost | After stimulation | Internal | 0.901 | High |
 | 9 | [Zhang 2022](https://doi.org/10.3389/fendo.2022.838087) | Frontiers in Endocrinology | UK, HFEA register; 2005–2016 | Neural networks | ANN | Before treatment | Internal | 0.794 | High |
 | 10 | [Liu X 2023](https://doi.org/10.1186/s12884-023-05775-3) | BMC Pregnancy and Childbirth | China, 1 centre; 2019–2021 | Boosted trees | LightGBM | Before treatment | External | 0.634 | High |
-| 11 | [Mourad 2023](https://doi.org/10.1016/j.fertnstert.2023.11.035) | Fertility and Sterility | Canada, 2 centres; 2012–2016 | Regression | LR selected | After pregnancy test | Internal | 0.780 | High |
-| 12 | [Cai 2024](https://doi.org/10.1093/humrep/dead242) | Human Reproduction | China, 1 centre; 2013–2020 | Regression | Lasso selected | Before treatment | Internal | 0.710 | Unclear |
-| 13 | [Liu L 2024a](https://doi.org/10.1186/s12958-024-01253-3) | Reproductive Biology and Endocrinology | China, 1 centre | Kernel methods | SVM | Before transfer | External | 0.862 | High |
-| 14 | [Liu L 2024b](https://doi.org/10.1186/s12958-024-01295-7) | Reproductive Biology and Endocrinology | China, 2 centres; 2016–2022 | Ensembles | Stacking | Before transfer | Internal | 0.791 | High |
-| 15 | [Liu Z 2024](https://doi.org/10.1007/s10815-023-02997-4) | Journal of Assisted Reproduction and Genetics | China, 1 centre; 2013–2019 | Boosted trees | XGBoost with cycle features and day-3 morphology | Before transfer | Internal | 0.830 | High |
+| 11 | [Cai 2024](https://doi.org/10.1093/humrep/dead242) | Human Reproduction | China, 1 centre; 2013–2020 | Regression | Lasso selected | Before treatment | Internal | 0.710 | Unclear |
+| 12 | [Liu L 2024a](https://doi.org/10.1186/s12958-024-01253-3) | Reproductive Biology and Endocrinology | China, 1 centre | Kernel methods | SVM | Before transfer | External | 0.862 | High |
+| 13 | [Liu L 2024b](https://doi.org/10.1186/s12958-024-01295-7) | Reproductive Biology and Endocrinology | China, 2 centres; 2016–2022 | Ensembles | Stacking | Before transfer | Internal | 0.791 | High |
+| 14 | [Liu Z 2024](https://doi.org/10.1007/s10815-023-02997-4) | Journal of Assisted Reproduction and Genetics | China, 1 centre; 2013–2019 | Boosted trees | XGBoost with cycle features and day-3 morphology | Before transfer | Internal | 0.830 | High |
+| 15 | [Mourad 2024](https://doi.org/10.1016/j.fertnstert.2023.11.035) | Fertility and Sterility | Canada, 2 centres; 2012–2016 | Regression | LR selected | After pregnancy test | Internal | 0.780 | High |
 | 16 | [Peng 2024](https://doi.org/10.1038/s41598-024-83781-x) | Scientific Reports | China, 1 centre; 2015–2022 | Regression | LR selected | After stimulation | Internal | 0.671 | High |
 | 17 | [Abdala 2025](https://doi.org/10.1007/s10815-025-03524-3) | Journal of Assisted Reproduction and Genetics | UAE, 1 centre; 2017–2023 | Regression | LR selected | Before transfer | Internal | 0.626 | High |
 | 18 | [Bai 2025](https://doi.org/10.1186/s12884-025-07433-2) | BMC Pregnancy and Childbirth | China, 1 centre; 2016–2022 | Boosted trees | LightGBM | After pregnancy test | Internal | 0.746 | High |
