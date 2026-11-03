@@ -5,9 +5,21 @@ authors:
   - family-names: Shahzad
     given-names: Abdul Raheem
     affiliation: "School of Computer Science, Wuhan University"
-    email: 2024272110002@whu.edu.cn
-date-released: 2026-11-01
-version: 1.0.0
+    email: abdul.raheem@whu.edu.cn
+  - family-names: Deng
+    given-names: Juan
+    affiliation: "School of Computer Science, Wuhan University"
+  - family-names: Zhang
+    given-names: Ming
+    affiliation: "Reproductive Medical Center, Zhongnan Hospital of Wuhan University"
+  - family-names: Khan
+    given-names: Muhammad Zaheer
+    affiliation: "School of Computer Science, Wuhan University"
+  - family-names: Ajaib
+    given-names: Umar
+    affiliation: "School of Computer Science, Wuhan University"
+date-released: 2026-11-04
+version: 1.1.0
 license: MIT
 repository-code: "https://github.com/abdul-raheem-shahzad/ml-ivf-live-birth-review"
 keywords: [in vitro fertilisation, live birth, machine learning, clinical prediction model, meta-analysis, systematic review, PROBAST+AI]

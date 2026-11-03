@@ -1,0 +1,30 @@
+Type,Analysis,Estimator,k,Pooled AUC,95% CI,95% prediction interval,I2 (%)
+Primary,Internal validation only,REML with HKSJ,39,0.814,0.770-0.852,0.477-0.955,100
+Primary,Later period or another centre,REML with HKSJ,9,0.756,0.691-0.811,0.546-0.889,90
+Secondary,Not at high risk of bias,REML with HKSJ,8,0.764,0.702-0.817,0.554-0.894,98
+Secondary,High risk of bias,REML with HKSJ,33,0.817,0.764-0.860,0.450-0.960,99
+Secondary,Low risk of bias,single study,1,0.690,0.648-0.729,,0
+Secondary,Unclear risk of bias,REML with HKSJ,7,0.774,0.707-0.829,0.554-0.904,98
+Secondary,Decision point: before treatment,REML with HKSJ,11,0.715,0.681-0.748,0.596-0.811,99
+Secondary,Decision point: after stimulation,REML with HKSJ,4,0.779,0.549-0.910,0.128-0.988,99
+Secondary,Decision point: before transfer,REML with HKSJ,23,0.790,0.759-0.818,0.637-0.889,94
+Secondary,Decision point: after a failed cycle,REML with HKSJ,3,0.783,0.527-0.921,0.007-0.999,79
+Secondary,Decision point not stated,REML with HKSJ,9,0.910,0.764-0.970,0.297-0.996,100
+Estimator,"Internal, DerSimonian-Laird",DerSimonian-Laird,39,0.813,0.782-0.841,0.563-0.936,100
+Estimator,"External, DerSimonian-Laird",DerSimonian-Laird,9,0.755,0.713-0.792,0.594-0.866,90
+Estimator,"Not at high risk of bias, DerSimonian-Laird",DerSimonian-Laird,8,0.759,0.733-0.784,0.660-0.836,98
+Estimator,"High risk of bias, DerSimonian-Laird",DerSimonian-Laird,33,0.815,0.781-0.845,0.567-0.937,99
+Sensitivity (planned),"External, latest decision point",REML with HKSJ,9,0.787,0.735-0.831,0.616-0.895,90
+Sensitivity (planned),"External, evaluation sets of 100 or more",REML with HKSJ,7,0.756,0.688-0.813,0.543-0.890,92
+Sensitivity (planned),"Internal, without assumed event rates",REML with HKSJ,33,0.787,0.757-0.814,0.588-0.905,99
+Sensitivity (planned),"Internal, without rebalanced or augmented evaluations",REML with HKSJ,34,0.813,0.761-0.855,0.452-0.958,100
+Sensitivity (planned),"Internal, decision point stated",REML with HKSJ,31,0.778,0.745-0.807,0.573-0.901,99
+Sensitivity (planned),"Internal, one study per overlapping cohort",REML with HKSJ,36,0.816,0.767-0.857,0.461-0.958,100
+Sensitivity (exploratory),"Internal, reported confidence intervals only",REML with HKSJ,16,0.790,0.743-0.830,0.567-0.915,99
+Sensitivity (exploratory),"External, reported confidence intervals only",REML with HKSJ,6,0.724,0.636-0.798,0.476-0.884,84
+Sensitivity (exploratory),"Internal, cumulative live birth",REML with HKSJ,14,0.801,0.753-0.842,0.584-0.920,99
+Sensitivity (exploratory),"Internal, live birth per cycle or per transfer",REML with HKSJ,25,0.824,0.753-0.877,0.401-0.970,100
+Sensitivity (exploratory),"Leave-one-out range, internal",REML with HKSJ,38,0.802-0.818,,,
+Sensitivity (exploratory),"Leave-one-out range, external",REML with HKSJ,8,0.741-0.765,,,
+Within study (exploratory),"Change from internal to external validation (AUC, at an internal AUC of 0.80)",REML with HKSJ,7,-0.041,-0.134 to +0.033,,
+Paired (exploratory),"Best machine learning minus logistic regression (AUC, at a logistic-regression AUC of 0.75)",REML with HKSJ,16,+0.056,+0.017 to +0.090,,99

@@ -75,7 +75,7 @@ summary = dict(stats=res, overall_distribution=dist, changed_domain_judgements=c
 with open(ROOT / "supplement" / "S7_inter_rater_agreement.csv", "w", newline="") as fh:
     w = csv.writer(fh)
     w.writerow(["Domain", "Comparison", "Studies compared", "Raw agreement", "Cohen's kappa", "Gwet's AC1"])
-    lab = {"author_vs_A": "Author (original) vs second appraisal A", "author_vs_B": "Author (original) vs second appraisal B",
+    lab = {"author_vs_A": "Original (first author) vs second appraisal A", "author_vs_B": "Original (first author) vs second appraisal B",
            "A_vs_B": "Second appraisal A vs B", "final_vs_A": "Final (adjudicated) vs A", "final_vs_B": "Final (adjudicated) vs B"}
     for d, v in res.items():
         for p, s in v.items():
@@ -84,7 +84,7 @@ with open(ROOT / "supplement" / "S7_inter_rater_agreement.csv", "w", newline="")
 with open(ROOT / "supplement" / "S8_second_appraisals_and_adjudication.csv", "w", newline="") as fh:
     w = csv.writer(fh)
     hdr = ["Study", "Key"]
-    for who in ("Author original", "Appraisal A", "Appraisal B", "Final"):
+    for who in ("Original (first author)", "Appraisal A", "Appraisal B", "Final"):
         hdr += [f"{who}: {d}" for d in DOMS]
     w.writerow(hdr + ["Adjudication"])
     for r in rows:

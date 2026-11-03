@@ -3,7 +3,9 @@
 Data, code and a living list of studies for the systematic review and meta-analysis
 
 > **Machine learning for live-birth prediction after IVF/ICSI from structured clinical data: a systematic review, meta-analysis and critical appraisal.**
-> Abdul Raheem Shahzad, School of Computer Science, Wuhan University. Manuscript under review, 2026.
+> Abdul Raheem Shahzad, Juan Deng, Ming Zhang, Muhammad Zaheer Khan and Umar Ajaib. Manuscript under review, 2026.
+>
+> School of Computer Science, Wuhan University; Reproductive Medical Center, Zhongnan Hospital of Wuhan University; Clinical Medicine Research Center of Prenatal Diagnosis and Birth Health in Hubei Province, Wuhan, China.
 
 Every number in the paper can be reproduced from this repository: the screening log, the extracted data, the risk-of-bias evidence, the two independent second appraisals, the study-level estimates and the analysis code.
 
@@ -31,7 +33,7 @@ The review searched OpenAlex, Scopus and Web of Science to 22 October 2026 under
 - **Validation design.** Internal and external estimates differ in the expected direction, but the difference is not significant (p = 0.11). Within the seven studies that reported both, the AUC changed by −0.041 (95% CI −0.134 to 0.033).
 - **Unstated decision point.** This is the one robust marker of an inflated AUC in joint meta-regression: +1.12 on the logit scale (95% CI 0.56–1.69; permutation p = 0.001).
 - **Machine learning vs logistic regression.** On the same data, the best machine-learning model beat logistic regression by a median of 0.028 AUC. The pooled gain was 0.056 (0.017–0.090), and 13 of the 16 comparisons were at high risk of bias.
-- **Risk of bias.** PROBAST+AI rated 1 study at low risk, 7 at unclear and 40 at high risk. Ratings were checked by two independent second appraisals (agreement statistics in `supplement/S7`).
+- **Risk of bias.** PROBAST+AI rated 1 study at low risk, 7 at unclear and 40 at high risk. Ratings were checked by two independent AI-assisted second appraisals by co-authors (agreement statistics in `supplement/S7`).
 - **Certainty.** GRADE rates the certainty of every pooled finding as low or very low (`supplement/S9`).
 
 ![Forest plot](figures/fig_forest.png)
@@ -99,7 +101,7 @@ Model families of the selected models: boosted trees 21, bagged trees 7, regress
 
 ```bash
 pip install -r requirements.txt
-python3 scripts/meta_analysis.py   # pooled analyses, meta-regression, sensitivity analyses, Figs. 3-4
+python3 scripts/meta_analysis.py   # pooled analyses, meta-regression, sensitivity analyses (supplement/S10), Figs. 3-4
 python3 scripts/certainty.py       # GRADE certainty table (supplement/S9)
 python3 scripts/agreement.py       # inter-rater agreement and adjudication (supplement/S7, S8)
 ```
@@ -115,7 +117,7 @@ Results are written to `build/ma_results.json`, `build/figs/` and `supplement/`.
 | `content/rob_original.json`, `content/adjudication_log.csv` | Original risk-of-bias ratings and the reason for each change after adjudication |
 | `supplement/S1_screening_log.csv` | All 819 screened records with source database, decision and retrieval status |
 | `supplement/S2`–`S6` | Extraction sheet, risk-of-bias evidence, study-level estimates, re-checked secondary tabulation, PRISMA 2020 checklist |
-| `supplement/S7`–`S9` | Inter-rater agreement, original/second-appraisal/final ratings, GRADE certainty of evidence |
+| `supplement/S7`–`S10` | Inter-rater agreement, original/second-appraisal/final ratings, GRADE certainty of evidence, every pooled analysis |
 | `supplement/second_appraisals/` | The complete files and logs of the two independent second appraisals |
 | `search/search_strategy.md` | Exact query strings, dates and record counts |
 | `scripts/` | Analysis code |
@@ -133,7 +135,7 @@ If you use this repository, please cite the paper and the repository (see [`CITA
 
 ```bibtex
 @misc{shahzad2026livebirthreview,
-  author = {Shahzad, Abdul Raheem},
+  author = {Shahzad, Abdul Raheem and Deng, Juan and Zhang, Ming and Khan, Muhammad Zaheer and Ajaib, Umar},
   title  = {Machine learning for live-birth prediction after {IVF/ICSI} from structured clinical data: a systematic review, meta-analysis and critical appraisal},
   year   = {2026},
   note   = {Manuscript under review. Data and code: https://github.com/abdul-raheem-shahzad/ml-ivf-live-birth-review}
@@ -146,4 +148,4 @@ Code: MIT licence ([`LICENSE`](LICENSE)). Data and tables: CC BY 4.0 ([`LICENSE-
 
 ## Contact
 
-Abdul Raheem Shahzad, 2024272110002@whu.edu.cn
+Abdul Raheem Shahzad (corresponding author), abdul.raheem@whu.edu.cn

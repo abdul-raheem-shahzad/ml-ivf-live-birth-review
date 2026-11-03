@@ -187,7 +187,7 @@ R["sens_external_fulltext"] = pool([s for s in external if s["source"] == "full 
 R["sens_internal_ci_only"] = pool([s for s in internal if s["se"] == "ci"])
 R["sens_external_ci_only"] = pool([s for s in external if s["se"] == "ci"])
 # endpoint: cumulative live birth vs live birth per cycle or per transfer
-CUM = lambda s: ("umulative" in s["pop"]) or ("CLB" in s["pop"])
+CUM = lambda s: ("umulative" in s["pop"]) or ("CLB" in s["pop"]) or ("complete cycle" in s["pop"])
 R["sens_internal_cumulative"] = pool([s for s in internal if CUM(s)])
 R["sens_internal_per_cycle"] = pool([s for s in internal if not CUM(s)])
 R["cumulative_keys"] = sorted({s["key"] for s in est if CUM(s)})
@@ -288,6 +288,11 @@ def metareg_perm(rows, cols, n_perm=1000, seed=20261031):
         cnt += np.array([tp[j] >= t_obs[j] - 1e-12 for j in range(len(cols))])
     return {n: float((cnt[j] + 1) / (n_perm + 1)) for j, (n, _) in enumerate(cols)}
 R["metareg_perm"] = metareg_perm(overall, MODS[:3])
+# does model family explain the spread? family alone, and family added to the three design moderators (exploratory)
+FAM_NAMES = ["Boosted trees", "Bagged trees", "Regression", "Neural networks"]
+FAMS = [(f, (lambda f: (lambda r: r["family"] == f))(f)) for f in FAM_NAMES]
+R["metareg_family"] = metareg(overall, FAMS)
+R["metareg_design_family"] = metareg(overall, MODS[:3] + FAMS)
 # pooled paired difference (best ML minus logistic regression) on the logit scale, with assumed within-study correlation r
 def paired_pool(r_corr, keep=lambda k: True):
     rows = []
@@ -367,6 +372,41 @@ out = ROOT / "build"; (out / "figs").mkdir(parents=True, exist_ok=True)
 (out / "ma_results.json").write_text(json.dumps(R, indent=1))
 print("metareg", json.dumps(R["metareg"])); print("metareg_size", json.dumps(R["metareg_size"])); print("paired_pool", json.dumps(R["paired_pool"])); print("pp_high", json.dumps(R["paired_pool_high"])); print("pp_not", json.dumps(R["paired_pool_not_high"])); print("ppkeys", R["paired_pool_keys"]); print("trimfill", R["trimfill_internal"])
 sup = ROOT / "supplement"; sup.mkdir(exist_ok=True)
+S10 = [
+    ("Primary", "Internal validation only", "internal"), ("Primary", "Later period or another centre", "external"),
+    ("Secondary", "Not at high risk of bias", "overall_not_high"), ("Secondary", "High risk of bias", "overall_high"),
+    ("Secondary", "Low risk of bias", "overall_low"), ("Secondary", "Unclear risk of bias", "overall_unclear"),
+    ("Secondary", "Decision point: before treatment", "dp_pre_treatment"), ("Secondary", "Decision point: after stimulation", "dp_post_stimulation"),
+    ("Secondary", "Decision point: before transfer", "dp_pre_transfer"), ("Secondary", "Decision point: after a failed cycle", "dp_post_cycle"),
+    ("Secondary", "Decision point not stated", "dp_unclear"),
+    ("Estimator", "Internal, DerSimonian-Laird", "dl_internal"), ("Estimator", "External, DerSimonian-Laird", "dl_external"),
+    ("Estimator", "Not at high risk of bias, DerSimonian-Laird", "dl_not_high"), ("Estimator", "High risk of bias, DerSimonian-Laird", "dl_high"),
+    ("Sensitivity (planned)", "External, latest decision point", "sens_external_latest"),
+    ("Sensitivity (planned)", "External, evaluation sets of 100 or more", "sens_external_n100"),
+    ("Sensitivity (planned)", "Internal, without assumed event rates", "sens_internal_no_assumed"),
+    ("Sensitivity (planned)", "Internal, without rebalanced or augmented evaluations", "sens_internal_no_rebalanced"),
+    ("Sensitivity (planned)", "Internal, decision point stated", "sens_internal_known_dp"),
+    ("Sensitivity (planned)", "Internal, one study per overlapping cohort", "sens_internal_no_overlap"),
+    ("Sensitivity (exploratory)", "Internal, reported confidence intervals only", "sens_internal_ci_only"),
+    ("Sensitivity (exploratory)", "External, reported confidence intervals only", "sens_external_ci_only"),
+    ("Sensitivity (exploratory)", "Internal, cumulative live birth", "sens_internal_cumulative"),
+    ("Sensitivity (exploratory)", "Internal, live birth per cycle or per transfer", "sens_internal_per_cycle"),
+]
+with open(sup / "S10_pooled_analyses.csv", "w", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["Type", "Analysis", "Estimator", "k", "Pooled AUC", "95% CI", "95% prediction interval", "I2 (%)"])
+    for typ, name, key in S10:
+        a = R[key]
+        est_name = "DerSimonian-Laird" if key.startswith("dl_") else ("single study" if a["k"] == 1 else "REML with HKSJ")
+        pi = f"{a['pi_lo']:.3f}-{a['pi_hi']:.3f}" if "pi_lo" in a else ""
+        w.writerow([typ, name, est_name, a["k"], f"{a['auc']:.3f}", f"{a['lo']:.3f}-{a['hi']:.3f}", pi, round(100 * a.get("i2", 0))])
+    lo = R["loo_internal"]; le = R["loo_external"]
+    w.writerow(["Sensitivity (exploratory)", "Leave-one-out range, internal", "REML with HKSJ", R["internal"]["k"] - 1, f"{lo['min']:.3f}-{lo['max']:.3f}", "", "", ""])
+    w.writerow(["Sensitivity (exploratory)", "Leave-one-out range, external", "REML with HKSJ", R["external"]["k"] - 1, f"{le['min']:.3f}-{le['max']:.3f}", "", "", ""])
+    wp = R["within_pairs"]
+    w.writerow(["Within study (exploratory)", "Change from internal to external validation (AUC, at an internal AUC of 0.80)", "REML with HKSJ", wp["k"], f"{wp['auc_d']:+.3f}", f"{wp['auc_lo']:+.3f} to {wp['auc_hi']:+.3f}", "", ""])
+    pp = R["paired_pool"]["0.5"]
+    w.writerow(["Paired (exploratory)", "Best machine learning minus logistic regression (AUC, at a logistic-regression AUC of 0.75)", "REML with HKSJ", pp["k"], f"{pp['auc_d']:+.3f}", f"{pp['auc_lo']:+.3f} to {pp['auc_hi']:+.3f}", "", round(100 * pp["i2"])])
 with open(sup / "S4_meta_analysis_estimates.csv", "w", newline="") as f:
     w = csv.writer(f)
     w.writerow(["study", "key", "decision", "validation", "auc", "lo", "hi", "ci_source", "se_method", "eval_n", "events", "logit_auc", "se_logit", "pooled",

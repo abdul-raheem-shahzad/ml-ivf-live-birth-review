@@ -1929,7 +1929,7 @@
   "fs": "Features with > 15% missing removed; feature impact ranking",
   "label": "Lantzi 2025",
   "data": "UK, HFEA register (source not named in the text); 2010–2018",
-  "pop": "IVF/ICSI treatment cycles; LB per cycle",
+  "pop": "IVF/ICSI treatment cycles (donor-insemination cycles possibly included); LB per cycle",
   "n": "665,244 cycles (stratified 50,000-row sample for training)",
   "lb": "32,047 of 133,049 in the holdout (24.1%)",
   "age": "Not reported",

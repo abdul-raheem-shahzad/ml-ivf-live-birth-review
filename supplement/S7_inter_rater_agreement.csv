@@ -1,31 +1,31 @@
 Domain,Comparison,Studies compared,Raw agreement,Cohen's kappa,Gwet's AC1
-Participants,Author (original) vs second appraisal A,46,0.35,0.1,0.07
-Participants,Author (original) vs second appraisal B,47,0.51,0.23,0.31
+Participants,Original (first author) vs second appraisal A,46,0.35,0.1,0.07
+Participants,Original (first author) vs second appraisal B,47,0.51,0.23,0.31
 Participants,Second appraisal A vs B,46,0.72,0.52,0.6
 Participants,Final (adjudicated) vs A,46,0.76,0.6,0.66
 Participants,Final (adjudicated) vs B,47,0.94,0.9,0.91
-Predictors,Author (original) vs second appraisal A,46,0.54,0.26,0.36
-Predictors,Author (original) vs second appraisal B,47,0.72,0.36,0.65
+Predictors,Original (first author) vs second appraisal A,46,0.54,0.26,0.36
+Predictors,Original (first author) vs second appraisal B,47,0.72,0.36,0.65
 Predictors,Second appraisal A vs B,46,0.54,0.3,0.36
 Predictors,Final (adjudicated) vs A,46,0.65,0.44,0.51
 Predictors,Final (adjudicated) vs B,47,0.83,0.59,0.79
-Outcome,Author (original) vs second appraisal A,46,0.65,0.36,0.53
-Outcome,Author (original) vs second appraisal B,47,0.7,0.42,0.61
+Outcome,Original (first author) vs second appraisal A,46,0.65,0.36,0.53
+Outcome,Original (first author) vs second appraisal B,47,0.7,0.42,0.61
 Outcome,Second appraisal A vs B,46,0.8,0.66,0.72
 Outcome,Final (adjudicated) vs A,46,0.87,0.77,0.82
 Outcome,Final (adjudicated) vs B,47,0.91,0.84,0.88
-Analysis,Author (original) vs second appraisal A,46,0.65,0.32,0.53
-Analysis,Author (original) vs second appraisal B,47,0.68,0.21,0.61
+Analysis,Original (first author) vs second appraisal A,46,0.65,0.32,0.53
+Analysis,Original (first author) vs second appraisal B,47,0.68,0.21,0.61
 Analysis,Second appraisal A vs B,46,0.63,0.21,0.53
 Analysis,Final (adjudicated) vs A,46,0.76,0.52,0.69
 Analysis,Final (adjudicated) vs B,47,0.83,0.46,0.8
-Overall,Author (original) vs second appraisal A,46,0.59,0.09,0.47
-Overall,Author (original) vs second appraisal B,47,0.68,0.11,0.62
+Overall,Original (first author) vs second appraisal A,46,0.59,0.09,0.47
+Overall,Original (first author) vs second appraisal B,47,0.68,0.11,0.62
 Overall,Second appraisal A vs B,46,0.74,0.25,0.69
 Overall,Final (adjudicated) vs A,46,0.83,0.54,0.79
 Overall,Final (adjudicated) vs B,47,0.87,0.45,0.86
-All four domains,Author (original) vs second appraisal A,184,0.55,0.34,0.33
-All four domains,Author (original) vs second appraisal B,188,0.65,0.46,0.5
+All four domains,Original (first author) vs second appraisal A,184,0.55,0.34,0.33
+All four domains,Original (first author) vs second appraisal B,188,0.65,0.46,0.5
 All four domains,Second appraisal A vs B,184,0.67,0.52,0.51
 All four domains,Final (adjudicated) vs A,184,0.76,0.65,0.64
 All four domains,Final (adjudicated) vs B,188,0.88,0.81,0.82
