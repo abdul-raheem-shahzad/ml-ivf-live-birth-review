@@ -3,7 +3,7 @@
 Data, code and a living list of studies for the systematic review and meta-analysis
 
 > **Machine learning for live-birth prediction after IVF/ICSI from structured clinical data: a systematic review, meta-analysis and critical appraisal.**
-> Abdul Raheem Shahzad, Muhammad Zaheer Khan, Umair Ajaib, Asad Ur Rehman, Juan Deng and Ming Zhang. Manuscript under review, 2026.
+> Abdul Raheem Shahzad, Muhammad Zaheer Khan, Umar Ajaib, Asad Ur Rehman, Juan Deng and Ming Zhang. Manuscript under review, 2026.
 >
 > School of Computer Science, Wuhan University; Reproductive Medical Center, Zhongnan Hospital of Wuhan University; Clinical Medicine Research Center of Prenatal Diagnosis and Birth Health in Hubei Province, Wuhan, China.
 
@@ -135,7 +135,7 @@ If you use this repository, please cite the paper and the repository (see [`CITA
 
 ```bibtex
 @misc{shahzad2026livebirthreview,
-  author = {Shahzad, Abdul Raheem and Khan, Muhammad Zaheer and Ajaib, Umair and Rehman, Asad Ur and Deng, Juan and Zhang, Ming},
+  author = {Shahzad, Abdul Raheem and Khan, Muhammad Zaheer and Ajaib, Umar and Rehman, Asad Ur and Deng, Juan and Zhang, Ming},
   title  = {Machine learning for live-birth prediction after {IVF/ICSI} from structured clinical data: a systematic review, meta-analysis and critical appraisal},
   year   = {2026},
   note   = {Manuscript under review. Data and code: https://github.com/abdul-raheem-shahzad/ml-ivf-live-birth-review}
